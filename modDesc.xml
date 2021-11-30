@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="43">
+    <author>Homealone</author>
+    <version>1.5</version>
+     
+	<title>
+        <en>Krone BigX 1180 Cargo</en>
+    </title>
+	 <multiplayer supported="true"/>
+    <description>
+       <en>
+            <![CDATA[Price: 515000€
+Power: 1156HP
+
+Changelog 1.0.0.1:
+fix some errors in xml and cleantup
+change wheel en fix unloding  to a trailer
+Changelog 1.0.0.2
+add twin wheels
+add crawler
+enabeld multiplayer  not tested
+removed unnessery files
+
+changelog 1.2
+
+pipe of cargo extendable
+add crabstering
+fix some bugs
+mods is not competible with FS19_AIVehicleExtension disable the alternate worker, i don't know how to fix this
+
+changelog  1.5
+
+change wheels   is  more stable
+add foot animation brake
+
+]]>
+        </en>
+
+    </description>
+	
+	<iconFilename>Icon_BigX1100Cargo.dds</iconFilename>
+		 <multiplayer supported="true"/>
+	<storeItems>
+       <!-- <storeItem xmlFilename="bigX1180.xml"/>  -->
+		   <storeItem rootNode="vehicle" xmlFilename="bigX1180.xml"/>
+    </storeItems>
+</modDesc>

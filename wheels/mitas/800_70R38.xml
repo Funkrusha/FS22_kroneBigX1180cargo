@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<wheel>
+    <default>
+        <physics radius="1.026" width="0.8" mass="0.362" tireType="mud" frictionScale="1.60" maxLongStiffness="8" maxLatStiffness="100" maxLatStiffnessLoad="2" />
+        <tire filename="$data/shared/wheels/mitas/SFT/R38_SFT.i3d" nodeLeft="4|0" nodeRight="4|0" maxDeformation="0.109" isCareWheel="false" tireTrackAtlasIndex="0" />
+        <outerRim filename="$data/shared/wheels/rims/rim001.i3d" node="1|0" widthAndDiam="25 38" />
+        <innerRim filename="$data/shared/wheels/rims/rim001.i3d" nodeLeft="3|0" nodeRight="3|1" widthAndDiam="25 38" />
+    </default>
+	
+		 <configurations>
+        <configuration id="dual" >
+            <innerRim filename="-" nodeLeft="-" nodeRight="-" widthAndDiam="-" />
+        </configuration>
+          </configurations>
+</wheel>
