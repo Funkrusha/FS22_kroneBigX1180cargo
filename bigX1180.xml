@@ -805,8 +805,8 @@
             </motorConfiguration>
         </motorConfigurations>
         <exhaustEffects>
-            <exhaustEffect node="exhaustParticle1" filename="$data/particleSystems/shared/exhaust.i3d" minRpmColor="0.9 0.9 0.9 0.1" maxRpmColor="0.9 0.9 0.9 0.4" minRpmScale="0.1" maxRpmScale="0.55" xzRotationsOffset="40 0" xzRotationsForward="0 0" xzRotationsBackward="100 0" xzRotationsLeft="0 -100" xzRotationsRight="0 100"/>
-            <exhaustEffect node="exhaustParticle2" filename="$data/particleSystems/shared/exhaust.i3d" minRpmColor="0.9 0.9 0.9 0.1" maxRpmColor="0.9 0.9 0.9 0.4" minRpmScale="0.1" maxRpmScale="0.55" xzRotationsOffset="40 0" xzRotationsForward="0 0" xzRotationsBackward="100 0" xzRotationsLeft="0 -100" xzRotationsRight="0 100"/>
+            <exhaustEffect node="exhaustParticle1" filename="$data/effects/exhaust/exhaust.i3d" minRpmColor="0.9 0.9 0.9 0.1" maxRpmColor="0.9 0.9 0.9 0.4" minRpmScale="0.1" maxRpmScale="0.55" xzRotationsOffset="40 0" xzRotationsForward="0 0" xzRotationsBackward="100 0" xzRotationsLeft="0 -100" xzRotationsRight="0 100"/>
+            <exhaustEffect node="exhaustParticle2" filename="$data/effects/exhaust/exhaust.i3d" minRpmColor="0.9 0.9 0.9 0.1" maxRpmColor="0.9 0.9 0.9 0.4" minRpmScale="0.1" maxRpmScale="0.55" xzRotationsOffset="40 0" xzRotationsForward="0 0" xzRotationsBackward="100 0" xzRotationsLeft="0 -100" xzRotationsRight="0 100"/>
         </exhaustEffects>
         <dashboards>
             <dashboard displayType="NUMBER" valueType="speed" numbers="numbersSpeed" numberColor="0.1 0.1 0.1 1" precision="1" groups="MOTOR_ACTIVE"/>
