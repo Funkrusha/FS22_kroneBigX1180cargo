@@ -546,35 +546,35 @@
         <sharedLight linkNode="yellowRound_03_9" filename="$data/shared/assets/reflectors/lizard/yellowRound_03.xml"/>
         <sharedLight linkNode="yellowRound_03_10" filename="$data/shared/assets/reflectors/lizard/yellowRound_03.xml"/>
         <sharedLight linkNode="yellowRound_03_11" filename="$data/shared/assets/reflectors/lizard/yellowRound_03.xml"/>
-        <sharedLight linkNode="workingLightCircle_02_1" lightTypes="1" filename="$data/shared/assets/lights/lizard/workingLightCircle_02.xml">
+        <sharedLight linkNode="workingLightCircle_02_1" lightTypes="1" filename="$data/shared/assets/lights/lizard/workingLight02.xml">
             <rotationNode name="rotationNode1" rotation="-60 0 0"/>
         </sharedLight>
-        <sharedLight linkNode="workingLightCircle_02_2" lightTypes="1" filename="$data/shared/assets/lights/lizard/workingLightCircle_02.xml">
+        <sharedLight linkNode="workingLightCircle_02_2" lightTypes="1" filename="$data/shared/assets/lights/lizard/workingLight02.xml">
             <rotationNode name="rotationNode1" rotation="-90 0 0"/>
         </sharedLight>
-        <sharedLight linkNode="workingLightCircle_02_3" lightTypes="1" filename="$data/shared/assets/lights/lizard/workingLightCircle_02.xml">
+        <sharedLight linkNode="workingLightCircle_02_3" lightTypes="1" filename="$data/shared/assets/lights/lizard/workingLight02.xml">
             <rotationNode name="rotationNode1" rotation="-90 0 0"/>
         </sharedLight>
-        <sharedLight linkNode="workingLightCircle_02_4" lightTypes="1" filename="$data/shared/assets/lights/lizard/workingLightCircle_02.xml">
+        <sharedLight linkNode="workingLightCircle_02_4" lightTypes="1" filename="$data/shared/assets/lights/lizard/workingLight02.xml">
             <rotationNode name="rotationNode1" rotation="-8 0 0"/>
         </sharedLight>
-        <sharedLight linkNode="workingLightCircle_02_5" lightTypes="1" filename="$data/shared/assets/lights/lizard/workingLightCircle_02.xml">
+        <sharedLight linkNode="workingLightCircle_02_5" lightTypes="1" filename="$data/shared/assets/lights/lizard/workingLight02.xml">
             <rotationNode name="rotationNode1" rotation="-8 0 0"/>
         </sharedLight>
-        <sharedLight linkNode="workingLightCircle_02_2" filename="$data/shared/assets/lights/lizard/workingLightCircle_02.xml"/>
-        <sharedLight linkNode="workingLightCircle_02_3" filename="$data/shared/assets/lights/lizard/workingLightCircle_02.xml"/>
-        <sharedLight linkNode="workingLightCircle_02_06" filename="$data/shared/assets/lights/lizard/workingLightCircle_02.xml"/>
-        <sharedLight linkNode="workingLightCircle_02_07" filename="$data/shared/assets/lights/lizard/workingLightCircle_02.xml"/>
-        <sharedLight linkNode="workingLightCircle_02_08" filename="$data/shared/assets/lights/lizard/workingLightCircle_02.xml"/>
-        <sharedLight linkNode="workingLightCircle_02_09" filename="$data/shared/assets/lights/lizard/workingLightCircle_02.xml"/>
-        <sharedLight linkNode="workingLightCircle_02_010" filename="$data/shared/assets/lights/lizard/workingLightCircle_02.xml"/>
-        <sharedLight linkNode="workingLightCircle_02_011" filename="$data/shared/assets/lights/lizard/workingLightCircle_02.xml"/>
-        <sharedLight linkNode="workingLightCircle_02_012" filename="$data/shared/assets/lights/lizard/workingLightCircle_02.xml"/>
-        <sharedLight linkNode="workingLightCircle_02_013" filename="$data/shared/assets/lights/lizard/workingLightCircle_02.xml"/>
-        <sharedLight linkNode="workingLightCircle_02_014" filename="$data/shared/assets/lights/lizard/workingLightCircle_02.xml"/>
-        <sharedLight linkNode="workingLightCircle_02_015" filename="$data/shared/assets/lights/lizard/workingLightCircle_02.xml"/>
-        <sharedLight linkNode="workingLightCircle_02_016" filename="$data/shared/assets/lights/lizard/workingLightCircle_02.xml"/>
-        <sharedLight linkNode="workingLightCircle_02_017" filename="$data/shared/assets/lights/lizard/workingLightCircle_02.xml"/>
+        <sharedLight linkNode="workingLightCircle_02_2" filename="$data/shared/assets/lights/lizard/workingLight02.xml"/>
+        <sharedLight linkNode="workingLightCircle_02_3" filename="$data/shared/assets/lights/lizard/workingLight02.xml"/>
+        <sharedLight linkNode="workingLightCircle_02_06" filename="$data/shared/assets/lights/lizard/workingLight02.xml"/>
+        <sharedLight linkNode="workingLightCircle_02_07" filename="$data/shared/assets/lights/lizard/workingLight02.xml"/>
+        <sharedLight linkNode="workingLightCircle_02_08" filename="$data/shared/assets/lights/lizard/workingLight02.xml"/>
+        <sharedLight linkNode="workingLightCircle_02_09" filename="$data/shared/assets/lights/lizard/workingLight02.xml"/>
+        <sharedLight linkNode="workingLightCircle_02_010" filename="$data/shared/assets/lights/lizard/workingLight02.xml"/>
+        <sharedLight linkNode="workingLightCircle_02_011" filename="$data/shared/assets/lights/lizard/workingLight02.xml"/>
+        <sharedLight linkNode="workingLightCircle_02_012" filename="$data/shared/assets/lights/lizard/workingLight02.xml"/>
+        <sharedLight linkNode="workingLightCircle_02_013" filename="$data/shared/assets/lights/lizard/workingLight02.xml"/>
+        <sharedLight linkNode="workingLightCircle_02_014" filename="$data/shared/assets/lights/lizard/workingLight02.xml"/>
+        <sharedLight linkNode="workingLightCircle_02_015" filename="$data/shared/assets/lights/lizard/workingLight02.xml"/>
+        <sharedLight linkNode="workingLightCircle_02_016" filename="$data/shared/assets/lights/lizard/workingLight02.xml"/>
+        <sharedLight linkNode="workingLightCircle_02_017" filename="$data/shared/assets/lights/lizard/workingLight02.xml"/>
         <sharedLight linkNode="workingLightOval02_01" lightTypes="1" filename="$data/shared/assets/lights/lizard/workingLight04.xml"/>
         <sharedLight linkNode="workingLightOval02_02" lightTypes="1" filename="$data/shared/assets/lights/lizard/workingLight04.xml"/>
         <sharedLight linkNode="hellaWorkingLightRound_01" lightTypes="1" filename="$data/shared/assets/lights/hella/hellaWorkingLightRound_01_back.xml"/>
