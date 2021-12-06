@@ -575,8 +575,8 @@
         <sharedLight linkNode="workingLightCircle_02_015" filename="$data/shared/assets/lights/lizard/workingLightCircle_02.xml"/>
         <sharedLight linkNode="workingLightCircle_02_016" filename="$data/shared/assets/lights/lizard/workingLightCircle_02.xml"/>
         <sharedLight linkNode="workingLightCircle_02_017" filename="$data/shared/assets/lights/lizard/workingLightCircle_02.xml"/>
-        <sharedLight linkNode="workingLightOval02_01" lightTypes="1" filename="$data/shared/assets/lights/lizard/workingLightOval_02.xml"/>
-        <sharedLight linkNode="workingLightOval02_02" lightTypes="1" filename="$data/shared/assets/lights/lizard/workingLightOval_02.xml"/>
+        <sharedLight linkNode="workingLightOval02_01" lightTypes="1" filename="$data/shared/assets/lights/lizard/workingLight04.xml"/>
+        <sharedLight linkNode="workingLightOval02_02" lightTypes="1" filename="$data/shared/assets/lights/lizard/workingLight04.xml"/>
         <sharedLight linkNode="hellaWorkingLightRound_01" lightTypes="1" filename="$data/shared/assets/lights/hella/hellaWorkingLightRound_01_back.xml"/>
         <sharedLight linkNode="hellaWorkingLightRound_02" lightTypes="1" filename="$data/shared/assets/lights/hella/hellaWorkingLightRound_01_back.xml"/>
         <states>
