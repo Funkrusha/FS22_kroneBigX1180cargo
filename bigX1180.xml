@@ -1027,7 +1027,7 @@
         </movingTools>
         <movingParts>
             <!-- axis back left -->
-            <movingPart node="axisBackLeftBottomArm" referencePoint="axisBackLeftBottomArmRef" referenceFrame="axisBackLeftBottomArmRef" isActiveDirty="true" scaleZ="true">
+            <movingPart node="axisBackLeftBottomArm" referencePoint="axisBackLeftBottomArmRef" referenceFrame="axisBackLeftBottomArmRef" isActiveDirty="true" scaleZ="true" maxUpdateDistance="40">
                 <dependentPart node="axisBackLeftTopArm"/>
                 <dependentPart node="axisBackLeftHydraulic"/>
                 <dependentPart node="axisBackSteeringBarLeft"/>
@@ -1038,7 +1038,7 @@
             </movingPart>
             <movingPart node="axisBackSteeringBarLeft" referencePoint="axisBackSteeringBarLeftRef" referenceFrame="axisBackSteeringBarLeftRef"/>
             <!-- axis back right -->
-            <movingPart node="axisBackRightBottomArm" referencePoint="axisBackRightBottomArmRef" referenceFrame="axisBackRightBottomArmRef" isActiveDirty="true" scaleZ="true">
+            <movingPart node="axisBackRightBottomArm" referencePoint="axisBackRightBottomArmRef" referenceFrame="axisBackRightBottomArmRef" isActiveDirty="true" scaleZ="true" maxUpdateDistance="40">
                 <dependentPart node="axisBackRightTopArm"/>
                 <dependentPart node="axisBackRightHydraulic"/>
                 <dependentPart node="axisBackSteeringBarRight"/>
@@ -1059,7 +1059,7 @@
             <movingPart node="pipeHydraulic" referencePoint="pipeHydraulicRef" referenceFrame="pipeHydraulicRef">
                 <translatingPart node="pipeHydraulicPunch"/>
             </movingPart>
-            <movingPart node="longPipeHydraulic" referencePoint="longPipeHydraulicRef" referenceFrame="longPipeHydraulicRef" isActiveDirty="true">
+            <movingPart node="longPipeHydraulic" referencePoint="longPipeHydraulicRef" referenceFrame="longPipeHydraulicRef" isActiveDirty="true" maxUpdateDistance="80">
                 <translatingPart node="longPipeHydraulicPunch"/>
             </movingPart>
             <movingPart node="pipeArm02Hydraulic" referencePoint="pipeArm02HydraulicRef" referenceFrame="pipeArm02HydraulicRef">
@@ -1070,9 +1070,9 @@
             <movingPart node="pipeLightOrientationArm02" referencePoint="pipeLightOrientationArm02Ref" referenceFrame="pipeLightOrientationArm02Ref"/>
             <movingPart node="pipeLightHolder" referencePoint="pipeLightHolderRef" referenceFrame="pipeLightHolderRef"/>
             <!-- wiper -->
-            <movingPart node="wiperFrontMiddleArm02" referencePoint="wiperFrontMiddleArm02Ref" referenceFrame="wiperFrontMiddleArm02Ref" isActiveDirty="true"/>
-            <movingPart node="wiperFrontMiddle" referenceFrame="bigx1180_main_component1" isActiveDirty="true"/>
-            <movingPart node="wiperFrontRight" referenceFrame="bigx1180_main_component1" isActiveDirty="true"/>
+            <movingPart node="wiperFrontMiddleArm02" referencePoint="wiperFrontMiddleArm02Ref" referenceFrame="wiperFrontMiddleArm02Ref" isActiveDirty="true" maxUpdateDistance="40"/>
+            <movingPart node="wiperFrontMiddle" referenceFrame="bigx1180_main_component1" isActiveDirty="true" maxUpdateDistance="40"/>
+            <movingPart node="wiperFrontRight" referenceFrame="bigx1180_main_component1" isActiveDirty="true" maxUpdateDistance="40"/>
 
 
             <movingPart node="1>7|1|0|1" referencePoint="1>7|1|0|0|22" referenceFrame="1>7|1|0|0">
@@ -1081,25 +1081,25 @@
             <movingPart node="1>7|1|0|0|14" referencePoint="1>7|1|0|0|3|0" referenceFrame="1>7|1|0|0|15">
                 <translatingPart node="1>7|1|0|0|14|0"/>
             </movingPart>
-            <movingPart node="0>0|14" referencePoint="1>7|0|1" referenceFrame="1>7|0|1" isActiveDirty="true">
+            <movingPart node="0>0|14" referencePoint="1>7|0|1" referenceFrame="1>7|0|1" isActiveDirty="true" maxUpdateDistance="40">
                 <translatingPart node="0>0|14|0"/>
             </movingPart>
-            <movingPart node="0>0|15" referencePoint="1>7|0|2" referenceFrame="1>7|0|2" isActiveDirty="true">
+            <movingPart node="0>0|15" referencePoint="1>7|0|2" referenceFrame="1>7|0|2" isActiveDirty="true" maxUpdateDistance="40">
                 <translatingPart node="0>0|15|0"/>
             </movingPart>
-            <movingPart node="1>12" referencePoint="1>0|1" referenceFrame="1>0|1" isActiveDirty="true">
+            <movingPart node="1>12" referencePoint="1>0|1" referenceFrame="1>0|1" isActiveDirty="true" maxUpdateDistance="40">
                 <translatingPart node="1>12|0"/>
             </movingPart>
-            <movingPart node="1>13" referencePoint="1>1|1" referenceFrame="1>1|1" isActiveDirty="true">
+            <movingPart node="1>13" referencePoint="1>1|1" referenceFrame="1>1|1" isActiveDirty="true" maxUpdateDistance="40">
                 <translatingPart node="1>13|0"/>
             </movingPart>
-            <movingPart node="1>14" referencePoint="1>2|1" referenceFrame="1>2|1" isActiveDirty="true">
+            <movingPart node="1>14" referencePoint="1>2|1" referenceFrame="1>2|1" isActiveDirty="true" maxUpdateDistance="40">
                 <translatingPart node="1>14|0"/>
             </movingPart>
-            <movingPart node="1>15" referencePoint="1>3|1" referenceFrame="1>3|1" isActiveDirty="true">
+            <movingPart node="1>15" referencePoint="1>3|1" referenceFrame="1>3|1" isActiveDirty="true" maxUpdateDistance="40">
                 <translatingPart node="1>15|0"/>
             </movingPart>
-            <movingPart node="1>7|1|0|0|4" referencePoint="1>7|1|0|0|5|0" referenceFrame="1>7|1|0|0|5|0" isActiveDirty="true">
+            <movingPart node="1>7|1|0|0|4" referencePoint="1>7|1|0|0|5|0" referenceFrame="1>7|1|0|0|5|0" isActiveDirty="true" maxUpdateDistance="40">
                 <translatingPart node="1>7|1|0|0|4|0"/>
             </movingPart>
 
