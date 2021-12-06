@@ -896,15 +896,17 @@
         </sounds>
     </combine>
     <foldable>
-	
-	<foldingParts startMoveDirection="1" turnOnFoldMinLimit="0" turnOnFoldMaxLimit="0.02" loadMovingToolStatesMaxLimit="1" loadMovingToolStatesMinLimit="-1">
-            <foldingPart animationName="foldGrainTank" speedScale="1.1"/>
-        </foldingParts>
+        <foldingConfigurations>
+            <foldingConfiguration>
+                <foldingParts startMoveDirection="1" turnOnFoldMinLimit="0" turnOnFoldMaxLimit="0.02" loadMovingToolStatesMaxLimit="1" loadMovingToolStatesMinLimit="-1">
+                    <foldingPart animationName="foldGrainTank" speedScale="1.1"/>
+                </foldingParts>
 		
-        <foldingParts startMoveDirection="-1">
-            <foldingPart animationName="folding" speedScale="0.5"/>
-        </foldingParts>
-		
+                <foldingParts startMoveDirection="-1">
+                    <foldingPart animationName="folding" speedScale="0.5"/>
+                </foldingParts>
+            </foldingConfiguration>
+        </foldingConfigurations>
     </foldable>
     <animations>
         <animation name="folding">
