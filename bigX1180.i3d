@@ -786,7 +786,7 @@
   </Dynamics>
 
   <Scene>
-      <Shape shapeId="1" name="bigx1180_main_component1" translation="0 0 -5.96046e-08" rotation="4 6.71733e-12 -6.99722e-14" dynamic="true" compound="true" collisionMask="4202882" clipDistance="300" objectMask="4202882" nodeId="312" materialIds="49" castsShadows="true" receiveShadows="true" nonRenderable="true">
+      <Shape shapeId="1" name="bigx1180_main_component1" translation="0 0 -5.96046e-08" rotation="4 6.71733e-12 -6.99722e-14" dynamic="true" compound="true" collisionMask="6300034" clipDistance="300" objectMask="4202882" nodeId="312" materialIds="49" castsShadows="true" receiveShadows="true" nonRenderable="true">
         <Shape shapeId="2" name="bigx1180_vis" clipDistance="300" objectMask="4202882" nodeId="313" materialIds="15" castsShadows="true" receiveShadows="true">
           <TransformGroup name="wheels" nodeId="314">
             <TransformGroup name="wheelFrontLeft" translation="1.23466 0.764 1.789" nodeId="315">
@@ -1366,7 +1366,7 @@
         <TransformGroup name="componentJoint" translation="0 0.226259 -1.6154" nodeId="746"/>
         <Camera name="EDITORCAM" translation="-5.23084 9.45841 -14.9686" rotation="159.18 -15.1884 172.595" nodeId="747" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
       </Shape>
-      <Shape shapeId="149" name="BigX_Cargo" translation="-0.00828881 -0.367976 -0.109204" rotation="-1.26 2.08441e-10 -1.83428e-08" dynamic="true" compound="true" collisionMask="4202754" density="5" clipDistance="300" nodeId="748" materialIds="10" castsShadows="true" receiveShadows="true" nonRenderable="true">
+      <Shape shapeId="149" name="BigX_Cargo" translation="-0.00828881 -0.367976 -0.109204" rotation="-1.26 2.08441e-10 -1.83428e-08" dynamic="true" compound="true" collisionMask="6299906" density="5" clipDistance="300" nodeId="748" materialIds="10" castsShadows="true" receiveShadows="true" nonRenderable="true">
         <Shape shapeId="150" name="wheel" translation="0.97 0.88 -5.07" clipDistance="300" nodeId="749" materialIds="5" castsShadows="true" receiveShadows="true">
           <TransformGroup name="transform" translation="0.13301 0 0" scale="1.16 1 1" nodeId="750"/>
           <TransformGroup name="transform" translation="-0.3 0.2 0" nodeId="751"/>
