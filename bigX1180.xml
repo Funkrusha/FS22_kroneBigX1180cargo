@@ -823,14 +823,21 @@
         <dischargeNode node="1>7|1|0|0|15|0|3|0|0" emptySpeed="1600" fillUnitIndex="4">
             <raycast extraDistance="-0.5" maxDistance="16"/>
             <effects>
+                <!--
                 <effectNode effectNode="1>7|1|0|0|15|0|4|0" effectClass="ParticleEffect" particleType="UNLOADING" emitCountScale="15" lifespan="0.11" delay="0.5"/>
-                <!-- <effectNode effectNode="1>7|1|0|0|23|0" effectClass="ParticleEffect" particleType="UNLOADING" emitCountScale="15" lifespan="0.025" delay="0.5"/>
-                <effectNode effectNode="1>7|1|0|0|23|1" effectClass="ParticleEffect" particleType="UNLOADING" emitCountScale="15" lifespan="0.02" delay="0.5"/ -->>
                 <effectNode effectNode="1>7|1|0|0|15|0|4|1" effectClass="ParticleEffect" particleType="UNLOADING" emitCountScale="15" lifespan="0.02" delay="0.5"/>
                 <effectNode effectNode="1>7|1|0|0|15|0|4|2" effectClass="ParticleEffect" particleType="UNLOADING" emitCountScale="15" lifespan="0.02" delay="0.5"/>
                 <effectNode effectNode="1>7|1|0|0|15|0|4|3" effectClass="ParticleEffect" particleType="UNLOADING" emitCountScale="15" lifespan="0.02" delay="0.5"/>
                 <effectNode effectNode="1>7|1|0|0|15|0|4|4" effectClass="ParticleEffect" particleType="UNLOADING" emitCountScale="15" lifespan="0.02" delay="0.5"/>
+                -->
 
+                <effectNode effectClass="TipEffect">
+                    <effectNode effectNode="1>7|1|0|0|15|0|4|0" effectClass="ParticleEffect" materialType="unloadingParticle"/>
+                    <effectNode effectNode="1>7|1|0|0|15|0|4|1" effectClass="ParticleEffect" materialType="unloadingParticle"/>
+                    <effectNode effectNode="1>7|1|0|0|15|0|4|2" effectClass="ParticleEffect" materialType="unloadingParticle"/>
+                    <effectNode effectNode="1>7|1|0|0|15|0|4|3" effectClass="ParticleEffect" materialType="unloadingParticle"/>
+                    <effectNode effectNode="1>7|1|0|0|15|0|4|4" effectClass="ParticleEffect" materialType="unloadingParticle"/>
+                </effectNode>
             </effects>
         </dischargeNode>
     </dischargeable>
