@@ -7,11 +7,11 @@
 
   <Files>
     <File fileId="54" filename="$data/shaders/vehicleShader.xml"/>
-    <File fileId="20" filename="$data/shaders/dashboardLightsShader.xml"/>
-    <File fileId="28" filename="$data/shaders/dashboardSymbolsShader.xml"/>
-    <File fileId="99" filename="$data/shaders/emissiveLightsShader.xml"/>
+    <File fileId="20" filename="$data/fs19support/shaders/dashboardLightsShader.xml"/>
+    <File fileId="28" filename="$data/fs19support/shaders/dashboardSymbolsShader.xml"/>
+    <File fileId="99" filename="$data/fs19support/shaders/emissiveLightsShader.xml"/>
     <File fileId="31" filename="$data/shaders/mirrorShader.xml"/>
-    <File fileId="25" filename="$data/shaders/numberShader.xml"/>
+    <File fileId="25" filename="$data/fs19support/shaders/numberShader.xml"/>
     <File fileId="4" filename="$data/shaders/vehicleShader.xml"/>
     <File fileId="32" filename="$data/shared/assets/assetLibraryDecals_diffuse.png"/>
     <File fileId="33" filename="$data/shared/assets/assetLibraryDecals_normal.png"/>
