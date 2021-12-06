@@ -1125,7 +1125,7 @@
         </default>
     </dashboard>
     <ai>
-        <collisionTrigger node="aiCollisionTrigger"/>
+        <collisionTrigger node="aiCollisionTrigger1"/>
         <!--<allowTurnBackward value="true"/> -->
         <!--<collisionTrigger node="aiCollisionTriggerback"/> -->
 
@@ -1321,6 +1321,7 @@
         <i3dMapping id="hydraulic06_in" node="0>0|5|2|7"/>
         <i3dMapping id="hydraulic06_out" node="0>0|5|2|8"/>
         <i3dMapping id="aiCollisionTrigger" node="0>0|6|0"/>
+        <i3dMapping id="aiCollisionTrigger1" node="0>0|6|3"/>
         <i3dMapping id="trailerTrigger" node="0>0|6|1"/>
         <i3dMapping id="exhaustParticle1" node="0>0|7|0"/>
         <i3dMapping id="exhaustParticle2" node="0>0|7|1"/>
