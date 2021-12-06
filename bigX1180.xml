@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <vehicle type="combineDrivable">
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
     <storeData>
         <name>
-            <en>BiG X 1180 cargo</en></name>
+            <en>BiG X 1180 cargo</en>
+        </name>
         <specs>
             <power>1156</power>
             <maxSpeed>40</maxSpeed>
@@ -14,7 +15,7 @@
             <function>$l10n_function_combineNeedsForageCutter</function>
         </functions>
         <image>Icon_BigX1100Cargo.dds</image>
-        <price>515000</price> 
+        <price>515000</price>
         <lifetime>600</lifetime>
         <rotation>0</rotation>
         <brand>KRONE</brand>
@@ -31,243 +32,243 @@
         <typeDesc>$l10n_typeDesc_harvester</typeDesc>
         <filename>bigX1180.i3d</filename>
         <sounds filename="$data/vehicles/krone/bigX1180/sounds/bigX1180.xml"/>
-       <!-- <size width="3.5" length="17" lengthOffset="0.5"/> -->
-		<size width="3.5" length="17"/>
+        <!-- <size width="3.5" length="17" lengthOffset="0.5"/> -->
+        <size width="3.5" length="17"/>
         <components>
-		
-		 <component centerOfMass="0 1 0.987" solverIterationCount="20" mass="6400"/>
+
+            <component centerOfMass="0 1 0.987" solverIterationCount="20" mass="6400"/>
             <component centerOfMass="0.01 0.97 -5.11" solverIterationCount="20" mass="13500"/>
-		<!--  <component centerOfMass="0 1.10 1.894" solverIterationCount="10" mass="12000" 5036/> -->
-           <!-- <component centerOfMass="0 1.15 -1" solverIterationCount="50" mass="12836"/10900>  -->
-		<!--	<component centerOfMass="0 0.97 -5.02" solverIterationCount="20"  mass="11300"/> -->
-			  <joint component1="1" component2="2" node="0>2" rotLimit="0 0 8" transLimit="0 0 0"/>
+            <!--  <component centerOfMass="0 1.10 1.894" solverIterationCount="10" mass="12000" 5036/> -->
+            <!-- <component centerOfMass="0 1.15 -1" solverIterationCount="50" mass="12836"/10900>  -->
+            <!--	<component centerOfMass="0 0.97 -5.02" solverIterationCount="20" mass="11300"/> -->
+            <joint component1="1" component2="2" node="0>2" rotLimit="0 0 8" transLimit="0 0 0"/>
         </components>
         <schemaOverlay attacherJointPosition="0 0">
             <default name="DEFAULT_VEHICLE"/>
-    <turnedOn name="DEFAULT_VEHICLE_ON"/>
+            <turnedOn name="DEFAULT_VEHICLE_ON"/>
             <selected name="DEFAULT_VEHICLE_SELECTED"/>
-     <turnedOnSelected name="DEFAULT_VEHICLE_SELECTED_ON"/> 
+            <turnedOnSelected name="DEFAULT_VEHICLE_SELECTED_ON"/>
         </schemaOverlay>
     </base>
-    
-   <wheels>
+
+    <wheels>
         <wheelConfigurations>
             <wheelConfiguration name="$l10n_configuration_valueDefault" price="0" brand="TRELLEBORG">
                 <wheels autoRotateBackSpeed="1.6">
-               <wheel filename="$data/shared/wheels/tires/trelleborg/TM900/710_70R42.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.4" >
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM900/710_70R42.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.4">
                         <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="1.6" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="25" suspTravel="0.2" spring="43" damper="40" frictionScale="2"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/tires/trelleborg/TM900/710_70R42.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.4">
                         <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="1.6" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="25" suspTravel="0.2" spring="43" damper="40" frictionScale="2"/>
                     </wheel>
-				
-					<wheel filename="$data/shared/wheels/tires/trelleborg/TM700/520_70R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.4">
-                        <physics rotSpeed="1" restLoad="1" repr="midweelleft" driveNode="middriveweelleft"  forcePointRatio="0.5" initialCompression="25" suspTravel="0.05" spring="40" damper="80" frictionScale="2.5" mass="3.9" />
+
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM700/520_70R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.4">
+                        <physics rotSpeed="1" restLoad="1" repr="midweelleft" driveNode="middriveweelleft" forcePointRatio="0.5" initialCompression="25" suspTravel="0.05" spring="40" damper="80" frictionScale="2.5" mass="3.9" />
                     </wheel>
-                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM700/520_70R30.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.4">
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM700/520_70R30.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.4">
                         <physics rotSpeed="1" restLoad="1" repr="midweelright" driveNode="middriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.05" spring="40" damper="80" frictionScale="2.5" mass="3.9" />
                     </wheel>
                     <wheel filename="$data/shared/wheels/tires/trelleborg/TM700/520_70R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.4">
-                        <physics rotSpeed="1" restLoad="1" repr="backweelleft" driveNode="backdriveweelleft" forcePointRatio="0.5" initialCompression="25" suspTravel="0.05" spring="40" damper="80" frictionScale="2.5"  mass="3.9"/>
+                        <physics rotSpeed="1" restLoad="1" repr="backweelleft" driveNode="backdriveweelleft" forcePointRatio="0.5" initialCompression="25" suspTravel="0.05" spring="40" damper="80" frictionScale="2.5" mass="3.9"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/tires/trelleborg/TM700/520_70R30.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.4">
-                        <physics rotSpeed="1" restLoad="1" repr="backweelright" driveNode="backdriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.05" spring="40" damper="80" frictionScale="2.5"  mass="3.9"/>
+                        <physics rotSpeed="1" restLoad="1" repr="backweelright" driveNode="backdriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.05" spring="40" damper="80" frictionScale="2.5" mass="3.9"/>
                     </wheel>
-					
-					
-					
+
+
+
                 </wheels>
             </wheelConfiguration>
 
-         <wheelConfiguration name="$l10n_configuration_valueWheelBroad" price="2000" brand="TRELLEBORG">
+            <wheelConfiguration name="$l10n_configuration_valueWheelBroad" price="2000" brand="TRELLEBORG">
                 <wheels autoRotateBackSpeed="1.6">
-                     <wheel filename="$data/shared/wheels/tires/trelleborg/TM900/800_70R38.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.6">
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM900/800_70R38.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.6">
                         <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="2.6" repr="wheelFrontLeft" driveNode="wheelFrontLeft" forcePointRatio="0.5" initialCompression="23" suspTravel="0.23" spring="43" damper="40" frictionScale="2" />
                     </wheel>
                     <wheel filename="$data/shared/wheels/tires/trelleborg/TM900/800_70R38.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.6">
                         <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="2.6" repr="wheelFrontRight" driveNode="wheelFrontRight" forcePointRatio="0.5" initialCompression="23" suspTravel="0.23" spring="43" damper="40" frictionScale="2"/>
                     </wheel>
-					
-					<wheel filename="$data/shared/wheels/tires/trelleborg/TM900/650_60R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
-                        <physics rotSpeed="1" restLoad="4.2" repr="midweelleft" driveNode="middriveweelleft"  forcePointRatio="0.5" initialCompression="35" suspTravel="0.11" spring="30" damper="80" frictionScale="2.5" mass="3.9" />
+
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM900/650_60R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
+                        <physics rotSpeed="1" restLoad="4.2" repr="midweelleft" driveNode="middriveweelleft" forcePointRatio="0.5" initialCompression="35" suspTravel="0.11" spring="30" damper="80" frictionScale="2.5" mass="3.9" />
                     </wheel>
-                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM900/650_60R34.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM900/650_60R34.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
                         <physics rotSpeed="1" restLoad="4.2" repr="midweelright" driveNode="middriveweelright" forcePointRatio="0.5" initialCompression="35" suspTravel="0.11" spring="30" damper="80" frictionScale="2.5" mass="3.9" />
                     </wheel>
                     <wheel filename="$data/shared/wheels/tires/trelleborg/TM900/650_60R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
-                        <physics rotSpeed="1" restLoad="4.2" repr="backweelleft" driveNode="backdriveweelleft" forcePointRatio="0.5" initialCompression="35" suspTravel="0.11" spring="30" damper="80" frictionScale="2.5"  mass="3.9"/>
+                        <physics rotSpeed="1" restLoad="4.2" repr="backweelleft" driveNode="backdriveweelleft" forcePointRatio="0.5" initialCompression="35" suspTravel="0.11" spring="30" damper="80" frictionScale="2.5" mass="3.9"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/tires/trelleborg/TM900/650_60R34.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
-                        <physics rotSpeed="1" restLoad="4.2" repr="backweelright" driveNode="backdriveweelright" forcePointRatio="0.5" initialCompression="35" suspTravel="0.11" spring="30" damper="80" frictionScale="2.5"  mass="3.9"/>
+                        <physics rotSpeed="1" restLoad="4.2" repr="backweelright" driveNode="backdriveweelright" forcePointRatio="0.5" initialCompression="35" suspTravel="0.11" spring="30" damper="80" frictionScale="2.5" mass="3.9"/>
                     </wheel>
-					
+
                 </wheels>
-				<objectChange node="midweelleft"  scaleActive="1 0.95 0.95"  scaleInactive="1 1 1"/>
-                <objectChange node="midweelright" scaleActive="1 0.95 0.95"  scaleInactive="1 1 1"/> 	
-                <objectChange node="backweelleft"  scaleActive="1 0.95 0.95" scaleInactive="1 1 1"/>
+                <objectChange node="midweelleft" scaleActive="1 0.95 0.95" scaleInactive="1 1 1"/>
+                <objectChange node="midweelright" scaleActive="1 0.95 0.95" scaleInactive="1 1 1"/>
+                <objectChange node="backweelleft" scaleActive="1 0.95 0.95" scaleInactive="1 1 1"/>
                 <objectChange node="backweelright" scaleActive="1 0.95 0.95" scaleInactive="1 1 1"/>
             </wheelConfiguration>
-			
-			<wheelConfiguration name="$l10n_configuration_valueCrawler" price="2000" brand="TRELLEBORG">
+
+            <wheelConfiguration name="$l10n_configuration_valueCrawler" price="2000" brand="TRELLEBORG">
                 <wheels autoRotateBackSpeed="1.6">
-                     <wheel  isLeft="true" hasTireTracks="true" hasParticles="true">
-                     <!--   <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="1.6" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="20" suspTravel="0.25" spring="24" damper="80" frictionScale="2"/> -->
-						 <physics rotSpeed="0" restLoad="3.1" repr="crawlerFrontLeft" forcePointRatio="0.5" radius="1.08" width="0.94" frictionScale="2" mass="0.4" initialCompression="20" suspTravel="0.20" spring="53" damper="105"/>
-						 <tire tireTrackAtlasIndex="7" />
-					</wheel>
-                    <wheel isLeft="false" hasTireTracks="true" hasParticles="true">
-                      <!--  <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="1.6" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="20" suspTravel="0.25" spring="24" damper="80" frictionScale="2"/> -->
-						  <physics rotSpeed="0" restLoad="3.1" repr="crawlerFrontRight" forcePointRatio="0.5" radius="1.08" width="0.94" frictionScale="2" mass="0.4" initialCompression="20" suspTravel="0.20" spring="53" damper="105"/>
-						 <tire tireTrackAtlasIndex="7" />
-					</wheel>
-					
-					<wheel filename="$data/shared/wheels/tires/trelleborg/TM900/710_60R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
-                        <physics rotSpeed="1" restLoad="4" repr="midweelleft" driveNode="middriveweelleft"  forcePointRatio="0.5"  radius="0.769" initialCompression="30" suspTravel="0.1" spring="45" damper="80" frictionScale="2.5" mass="3.9" />
+                    <wheel isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <!--   <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="1.6" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="20" suspTravel="0.25" spring="24" damper="80" frictionScale="2"/> -->
+                        <physics rotSpeed="0" restLoad="3.1" repr="crawlerFrontLeft" forcePointRatio="0.5" radius="1.08" width="0.94" frictionScale="2" mass="0.4" initialCompression="20" suspTravel="0.20" spring="53" damper="105"/>
+                        <tire tireTrackAtlasIndex="7" />
                     </wheel>
-                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM900/710_60R30.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
+                    <wheel isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <!--  <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="1.6" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="20" suspTravel="0.25" spring="24" damper="80" frictionScale="2"/> -->
+                        <physics rotSpeed="0" restLoad="3.1" repr="crawlerFrontRight" forcePointRatio="0.5" radius="1.08" width="0.94" frictionScale="2" mass="0.4" initialCompression="20" suspTravel="0.20" spring="53" damper="105"/>
+                        <tire tireTrackAtlasIndex="7" />
+                    </wheel>
+
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM900/710_60R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
+                        <physics rotSpeed="1" restLoad="4" repr="midweelleft" driveNode="middriveweelleft" forcePointRatio="0.5" radius="0.769" initialCompression="30" suspTravel="0.1" spring="45" damper="80" frictionScale="2.5" mass="3.9" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM900/710_60R30.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
                         <physics rotSpeed="1" restLoad="4" repr="midweelright" driveNode="middriveweelright" forcePointRatio="0.5" radius="0.769" initialCompression="30" suspTravel="0.1" spring="45" damper="80" frictionScale="2.5" mass="3.9" />
                     </wheel>
                     <wheel filename="$data/shared/wheels/tires/trelleborg/TM900/710_60R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
-                        <physics rotSpeed="1" restLoad="4" repr="backweelleft" driveNode="backdriveweelleft" forcePointRatio="0.5" radius="0.775" initialCompression="30" suspTravel="0.1" spring="45" damper="80" frictionScale="2.5"  mass="3.9"/>
+                        <physics rotSpeed="1" restLoad="4" repr="backweelleft" driveNode="backdriveweelleft" forcePointRatio="0.5" radius="0.775" initialCompression="30" suspTravel="0.1" spring="45" damper="80" frictionScale="2.5" mass="3.9"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/tires/trelleborg/TM900/710_60R30.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
-                        <physics rotSpeed="1" restLoad="4" repr="backweelright" driveNode="backdriveweelright" forcePointRatio="0.5" radius="0.775" initialCompression="30" suspTravel="0.1" spring="45" damper="80" frictionScale="2.5"  mass="3.9"/>
+                        <physics rotSpeed="1" restLoad="4" repr="backweelright" driveNode="backdriveweelright" forcePointRatio="0.5" radius="0.775" initialCompression="30" suspTravel="0.1" spring="45" damper="80" frictionScale="2.5" mass="3.9"/>
                     </wheel>
-					
+
                 </wheels>
-				<crawlers>
-                    <crawler filename="$data/shared/wheels/crawlers/lizard/crawler01.xml" linkNode="crawlerFrontLeft"  wheelIndex="1" isLeft="true"/>
+                <crawlers>
+                    <crawler filename="$data/shared/wheels/crawlers/lizard/crawler01.xml" linkNode="crawlerFrontLeft" wheelIndex="1" isLeft="true"/>
                     <crawler filename="$data/shared/wheels/crawlers/lizard/crawler01.xml" linkNode="crawlerFrontRight" wheelIndex="2" isLeft="false"/>
-                 </crawlers>
-				<objectChange node="wheelFrontLeft"  visibilityActive="false" visibilityInactive="true"/>
-				<objectChange node="wheelFrontRight"  visibilityActive="false" visibilityInactive="true"/>
-				  <objectChange node="midweelleft"  scaleActive="1 0.98 0.98"  scaleInactive="1 1 1"/>
-                <objectChange node="midweelright" scaleActive="1 0.98 0.98"  scaleInactive="1 1 1"/> 	
-                <objectChange node="backweelleft"  scaleActive="1 0.98 0.98" scaleInactive="1 1 1"/>
+                </crawlers>
+                <objectChange node="wheelFrontLeft" visibilityActive="false" visibilityInactive="true"/>
+                <objectChange node="wheelFrontRight" visibilityActive="false" visibilityInactive="true"/>
+                <objectChange node="midweelleft" scaleActive="1 0.98 0.98" scaleInactive="1 1 1"/>
+                <objectChange node="midweelright" scaleActive="1 0.98 0.98" scaleInactive="1 1 1"/>
+                <objectChange node="backweelleft" scaleActive="1 0.98 0.98" scaleInactive="1 1 1"/>
                 <objectChange node="backweelright" scaleActive="1 0.98 0.98" scaleInactive="1 1 1"/>
-			
+
             </wheelConfiguration>
-			
-			<wheelConfiguration name="$l10n_configuration_valueCrawler" price="4000" brand="TRELLEBORG">
-                   <wheels autoRotateBackSpeed="2.5">
-                    <wheel  isLeft="true" hasTireTracks="true" hasParticles="true">
-                     <!--   <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="1.6" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="20" suspTravel="0.25" spring="24" damper="80" frictionScale="2"/> -->
-						 <physics rotSpeed="0" restLoad="3.1" repr="crawlerFrontLeft" forcePointRatio="0.5" radius="1.08" width="0.94" frictionScale="2" mass="0.4" initialCompression="20" suspTravel="0.25" spring="53" damper="105"/>
-						 <tire tireTrackAtlasIndex="7" />
-					</wheel>
+
+            <wheelConfiguration name="$l10n_configuration_valueCrawler" price="4000" brand="TRELLEBORG">
+                <wheels autoRotateBackSpeed="2.5">
+                    <wheel isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <!--   <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="1.6" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="20" suspTravel="0.25" spring="24" damper="80" frictionScale="2"/> -->
+                        <physics rotSpeed="0" restLoad="3.1" repr="crawlerFrontLeft" forcePointRatio="0.5" radius="1.08" width="0.94" frictionScale="2" mass="0.4" initialCompression="20" suspTravel="0.25" spring="53" damper="105"/>
+                        <tire tireTrackAtlasIndex="7" />
+                    </wheel>
                     <wheel isLeft="false" hasTireTracks="true" hasParticles="true">
-                      <!--  <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="1.6" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="20" suspTravel="0.25" spring="24" damper="80" frictionScale="2"/> -->
-						  <physics rotSpeed="0" restLoad="3.1" repr="crawlerFrontRight" forcePointRatio="0.5" radius="1.08" width="0.94" frictionScale="2" mass="0.4" initialCompression="20" suspTravel="0.25" spring="53" damper="105"/>
-						 <tire tireTrackAtlasIndex="7" />
-					</wheel>
-						<wheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
-                        <physics rotSpeed="1" restLoad="3.2" repr="midweelleft" driveNode="middriveweelleft"  forcePointRatio="0.5" initialCompression="25" suspTravel="0.08" spring="43" damper="80" frictionScale="2"  mass="3.9"/>
-                     <additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.1">
+                        <!--  <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="1.6" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="20" suspTravel="0.25" spring="24" damper="80" frictionScale="2"/> -->
+                        <physics rotSpeed="0" restLoad="3.1" repr="crawlerFrontRight" forcePointRatio="0.5" radius="1.08" width="0.94" frictionScale="2" mass="0.4" initialCompression="20" suspTravel="0.25" spring="53" damper="105"/>
+                        <tire tireTrackAtlasIndex="7" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
+                        <physics rotSpeed="1" restLoad="3.2" repr="midweelleft" driveNode="middriveweelleft" forcePointRatio="0.5" initialCompression="25" suspTravel="0.08" spring="43" damper="80" frictionScale="2" mass="3.9"/>
+                        <additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.1">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|0" scale="0.25 0.25 0.25" offset="-0.21" />
-						</additionalWheel>
-					</wheel>
-                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
-                        <physics rotSpeed="1" restLoad="3.2" repr="midweelright" driveNode="middriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.08" spring="43" damper="80" frictionScale="2" mass="3.9"  />
-							<additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.1">
+                        </additionalWheel>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
+                        <physics rotSpeed="1" restLoad="3.2" repr="midweelright" driveNode="middriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.08" spring="43" damper="80" frictionScale="2" mass="3.9" />
+                        <additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.1">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|1" scale="0.25 0.25 0.25" offset="-0.21" />
-						</additionalWheel>
-				   </wheel>
+                        </additionalWheel>
+                    </wheel>
                     <wheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
                         <physics rotSpeed="1" restLoad="3.2" repr="backweelleft" driveNode="backdriveweelleft" forcePointRatio="0.5" initialCompression="25" suspTravel="0.08" spring="43" damper="80" frictionScale="2" mass="3.9" />
-                     <additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.1">
+                        <additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.1">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|0" scale="0.25 0.25 0.25" offset="-0.21" />
-						</additionalWheel>
-					</wheel>
+                        </additionalWheel>
+                    </wheel>
                     <wheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
-                        <physics rotSpeed="1" restLoad="3.2" repr="backweelright" driveNode="backdriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.08" spring="43" damper="80" frictionScale="2"  mass="3.9" />
-					<additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.1">
+                        <physics rotSpeed="1" restLoad="3.2" repr="backweelright" driveNode="backdriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.08" spring="43" damper="80" frictionScale="2" mass="3.9" />
+                        <additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.1">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|1" scale="0.25 0.25 0.25" offset="-0.21" />
-						</additionalWheel>
-					</wheel>
-                    
+                        </additionalWheel>
+                    </wheel>
+
                 </wheels>
-				 <crawlers>
-                    <crawler filename="$data/shared/wheels/crawlers/lizard/crawler01.xml" linkNode="crawlerFrontLeft"  wheelIndex="1" isLeft="true"/>
+                <crawlers>
+                    <crawler filename="$data/shared/wheels/crawlers/lizard/crawler01.xml" linkNode="crawlerFrontLeft" wheelIndex="1" isLeft="true"/>
                     <crawler filename="$data/shared/wheels/crawlers/lizard/crawler01.xml" linkNode="crawlerFrontRight" wheelIndex="2" isLeft="false"/>
-                 </crawlers>
-				<objectChange node="wheelFrontLeft"  visibilityActive="false" visibilityInactive="true"/>
-				<objectChange node="wheelFrontRight"  visibilityActive="false" visibilityInactive="true"/>
-				<objectChange node="midweelleft"  scaleActive="0.83 0.99 0.99"  scaleInactive="1 1 1"/>
-                <objectChange node="midweelright" scaleActive="0.83 0.99 0.99"  scaleInactive="1 1 1"/> 	
-                <objectChange node="backweelleft"  scaleActive="0.83 0.99 0.99" scaleInactive="1 1 1"/>
+                </crawlers>
+                <objectChange node="wheelFrontLeft" visibilityActive="false" visibilityInactive="true"/>
+                <objectChange node="wheelFrontRight" visibilityActive="false" visibilityInactive="true"/>
+                <objectChange node="midweelleft" scaleActive="0.83 0.99 0.99" scaleInactive="1 1 1"/>
+                <objectChange node="midweelright" scaleActive="0.83 0.99 0.99" scaleInactive="1 1 1"/>
+                <objectChange node="backweelleft" scaleActive="0.83 0.99 0.99" scaleInactive="1 1 1"/>
                 <objectChange node="backweelright" scaleActive="0.83 0.99 0.99" scaleInactive="1 1 1"/>
-          
+
             </wheelConfiguration>
-			
-			<wheelConfiguration name="$l10n_configuration_valueTwinWheelsNarrow" price="4000" brand="TRELLEBORG">
+
+            <wheelConfiguration name="$l10n_configuration_valueTwinWheelsNarrow" price="4000" brand="TRELLEBORG">
                 <wheels autoRotateBackSpeed="2.5">
                     <wheel filename="$data/shared/wheels/tires/trelleborg/TM600/480_80R50.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
                         <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="2" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="23" suspTravel="0.25" spring="40" damper="80"/>
                         <additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/480_80R50.xml" configId="dual" offset="0.2">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|0" scale="0.25 0.25 0.25" offset="-0.21" />
-					</additionalWheel>
-						</wheel>
+                        </additionalWheel>
+                    </wheel>
                     <wheel filename="$data/shared/wheels/tires/trelleborg/TM600/480_80R50.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
                         <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="2" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="23" suspTravel="0.25" spring="40" damper="80"/>
                         <additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/480_80R50.xml" configId="dual" offset="0.1">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|1" scale="0.25 0.25 0.25" offset="-0.21" />
-						</additionalWheel>
-						</wheel>
-						<wheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
-                        <physics rotSpeed="1" restLoad="3.2" repr="midweelleft" driveNode="middriveweelleft"  forcePointRatio="0.5" initialCompression="25" suspTravel="0.08" spring="43" damper="80" frictionScale="2"  mass="3.9"/>
-                     <additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.1">
+                        </additionalWheel>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
+                        <physics rotSpeed="1" restLoad="3.2" repr="midweelleft" driveNode="middriveweelleft" forcePointRatio="0.5" initialCompression="25" suspTravel="0.08" spring="43" damper="80" frictionScale="2" mass="3.9"/>
+                        <additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.1">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|0" scale="0.25 0.25 0.25" offset="-0.21" />
-						</additionalWheel>
-					</wheel>
-                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
-                        <physics rotSpeed="1" restLoad="3.2" repr="midweelright" driveNode="middriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.08" spring="43" damper="80" frictionScale="2" mass="3.9"  />
-							<additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.1">
+                        </additionalWheel>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
+                        <physics rotSpeed="1" restLoad="3.2" repr="midweelright" driveNode="middriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.08" spring="43" damper="80" frictionScale="2" mass="3.9" />
+                        <additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.1">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|1" scale="0.25 0.25 0.25" offset="-0.21" />
-						</additionalWheel>
-				   </wheel>
+                        </additionalWheel>
+                    </wheel>
                     <wheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
                         <physics rotSpeed="1" restLoad="3.2" repr="backweelleft" driveNode="backdriveweelleft" forcePointRatio="0.5" initialCompression="25" suspTravel="0.08" spring="43" damper="80" frictionScale="2" mass="3.9" />
-                     <additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.1">
+                        <additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.1">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|0" scale="0.25 0.25 0.25" offset="-0.21" />
-						</additionalWheel>
-					</wheel>
+                        </additionalWheel>
+                    </wheel>
                     <wheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
-                        <physics rotSpeed="1" restLoad="3.2" repr="backweelright" driveNode="backdriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.08" spring="43" damper="80" frictionScale="2"  mass="3.9" />
-					<additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.1">
+                        <physics rotSpeed="1" restLoad="3.2" repr="backweelright" driveNode="backdriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.08" spring="43" damper="80" frictionScale="2" mass="3.9" />
+                        <additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.1">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|1" scale="0.25 0.25 0.25" offset="-0.21" />
-						</additionalWheel>
-					</wheel>
-                    
+                        </additionalWheel>
+                    </wheel>
+
                 </wheels>
-					<objectChange node="midweelleft"  scaleActive="0.83 0.98 0.98"  scaleInactive="1 1 1"/>
-					<objectChange node="midweelright" scaleActive="0.83 0.98 0.98"  scaleInactive="1 1 1"/> 	
-					<objectChange node="backweelleft"  scaleActive="0.83 0.98 0.98" scaleInactive="1 1 1"/>
-					<objectChange node="backweelright" scaleActive="0.83 0.98 0.98" scaleInactive="1 1 1"/>
-		  
+                <objectChange node="midweelleft" scaleActive="0.83 0.98 0.98" scaleInactive="1 1 1"/>
+                <objectChange node="midweelright" scaleActive="0.83 0.98 0.98" scaleInactive="1 1 1"/>
+                <objectChange node="backweelleft" scaleActive="0.83 0.98 0.98" scaleInactive="1 1 1"/>
+                <objectChange node="backweelright" scaleActive="0.83 0.98 0.98" scaleInactive="1 1 1"/>
+
             </wheelConfiguration>
-	
-			 <wheelConfiguration name="$l10n_configuration_valueWheelBroad" price="0" brand="MITAS">
+
+            <wheelConfiguration name="$l10n_configuration_valueWheelBroad" price="0" brand="MITAS">
                 <wheels autoRotateBackSpeed="1.6">
-                       <wheel filename="$data/shared/wheels/mitas/SFT/900_60R42.xml" isLeft="true" hasTireTracks="true" hasParticles="true" scale="1 1.2 1.2" >
+                    <wheel filename="$data/shared/wheels/mitas/SFT/900_60R42.xml" isLeft="true" hasTireTracks="true" hasParticles="true" scale="1 1.2 1.2">
                         <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="2.1" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="25" suspTravel="0.1" spring="43" damper="40" frictionScale="2"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/mitas/SFT/900_60R42.xml" isLeft="false" hasTireTracks="true" hasParticles="true" scale="1 1.2 1.2">
                         <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="2.1" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="25" suspTravel="0.1" spring="43" damper="40" frictionScale="2"/>
                     </wheel>
-					  <wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
-                        <physics rotSpeed="1" restLoad="3.1" repr="midweelleft" driveNode="middriveweelleft"  forcePointRatio="0.5" initialCompression="25" suspTravel="0.1" spring="37" damper="90" frictionScale="2" mass="3.9" />
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
+                        <physics rotSpeed="1" restLoad="3.1" repr="midweelleft" driveNode="middriveweelleft" forcePointRatio="0.5" initialCompression="25" suspTravel="0.1" spring="37" damper="90" frictionScale="2" mass="3.9" />
                     </wheel>
-                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
                         <physics rotSpeed="1" restLoad="3.1" repr="midweelright" driveNode="middriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.1" spring="37" damper="90" frictionScale="2" mass="3.9" />
                     </wheel>
                     <wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
@@ -276,23 +277,23 @@
                     <wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
                         <physics rotSpeed="1" restLoad="3.1" repr="backweelright" driveNode="backdriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.1" spring="37" damper="90" frictionScale="2" mass="3.9" />
                     </wheel>
-					
+
                 </wheels>
-					
+
             </wheelConfiguration>
-			
-			 <wheelConfiguration name="$l10n_configuration_valueWheelBroad" price="0" brand="MITAS">
+
+            <wheelConfiguration name="$l10n_configuration_valueWheelBroad" price="0" brand="MITAS">
                 <wheels autoRotateBackSpeed="1.6">
-                       <wheel filename="$data/shared/wheels/tires/mitas/SFT/900_60R42.xml" isLeft="true" hasTireTracks="true" hasParticles="true" scale="1 1.2 1.2">
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/900_60R42.xml" isLeft="true" hasTireTracks="true" hasParticles="true" scale="1 1.2 1.2">
                         <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="2.1" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="25" suspTravel="0.1" spring="43" damper="40" frictionScale="2"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/tires/mitas/SFT/900_60R42.xml" isLeft="false" hasTireTracks="true" hasParticles="true" scale="1 1.2 1.2">
                         <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="2.1" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="25" suspTravel="0.1" spring="43" damper="40" frictionScale="2"/>
                     </wheel>
-					<wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30_2.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
-                        <physics rotSpeed="1" restLoad="3.1" repr="midweelleft" driveNode="middriveweelleft"  forcePointRatio="0.5" initialCompression="25" suspTravel="0.06" spring="37" damper="90" frictionScale="2" mass="3.9" />
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30_2.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
+                        <physics rotSpeed="1" restLoad="3.1" repr="midweelleft" driveNode="middriveweelleft" forcePointRatio="0.5" initialCompression="25" suspTravel="0.06" spring="37" damper="90" frictionScale="2" mass="3.9" />
                     </wheel>
-                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30_2.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30_2.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
                         <physics rotSpeed="1" restLoad="3.1" repr="midweelright" driveNode="middriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.06" spring="37" damper="90" frictionScale="2" mass="3.9" />
                     </wheel>
                     <wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30_2.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
@@ -301,110 +302,110 @@
                     <wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30_2.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
                         <physics rotSpeed="1" restLoad="3.1" repr="backweelright" driveNode="backdriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.06" spring="37" damper="90" frictionScale="2" mass="3.9" />
                     </wheel>
-					
+
                 </wheels>
             </wheelConfiguration>
-			<wheelConfiguration name="$l10n_configuration_valueTwinWheelsFront" price="5000" brand="MITAS">
+            <wheelConfiguration name="$l10n_configuration_valueTwinWheelsFront" price="5000" brand="MITAS">
                 <wheels autoRotateBackSpeed="2.5">
                     <wheel filename="$data/shared/wheels/tires/mitas/SFT/650_75R42.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
                         <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="2" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="25" suspTravel="0.2" spring="40" damper="80"/>
                         <additionalWheel filename="$data/shared/wheels/tires/mitas/SFT/650_75R42.xml" configId="dual" offset="0.2">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|0" scale="0.25 0.25 0.25" offset="-0.21" />
-					</additionalWheel>
-						</wheel>
+                        </additionalWheel>
+                    </wheel>
                     <wheel filename="$data/shared/wheels/tires/mitas/SFT/650_75R42.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
                         <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="2" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="25" suspTravel="0.2" spring="40" damper="80"/>
                         <additionalWheel filename="$data/shared/wheels/tires/mitas/SFT/650_75R42.xml" configId="dual" offset="0.2">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|1" scale="0.25 0.25 0.25" offset="-0.21" />
-						</additionalWheel>
-						</wheel>
-					<wheel filename="$data/shared/wheels/tires/mitas/SFT/600_65R28.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
-                        <physics rotSpeed="1" restLoad="1" repr="midweelleft" driveNode="middriveweelleft"  forcePointRatio="0.5" initialCompression="35" suspTravel="0.25" spring="28" damper="80" frictionScale="2"  mass="3.9"/>
+                        </additionalWheel>
                     </wheel>
-                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/600_65R28.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
-                        <physics rotSpeed="1" restLoad="1" repr="midweelright" driveNode="middriveweelright" forcePointRatio="0.5" initialCompression="35" suspTravel="0.25" spring="28" damper="80" frictionScale="2" mass="3.9"  />
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/600_65R28.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
+                        <physics rotSpeed="1" restLoad="1" repr="midweelleft" driveNode="middriveweelleft" forcePointRatio="0.5" initialCompression="35" suspTravel="0.25" spring="28" damper="80" frictionScale="2" mass="3.9"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/600_65R28.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
+                        <physics rotSpeed="1" restLoad="1" repr="midweelright" driveNode="middriveweelright" forcePointRatio="0.5" initialCompression="35" suspTravel="0.25" spring="28" damper="80" frictionScale="2" mass="3.9" />
                     </wheel>
                     <wheel filename="$data/shared/wheels/tires/mitas/SFT/600_65R28.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
                         <physics rotSpeed="1" restLoad="1" repr="backweelleft" driveNode="backdriveweelleft" forcePointRatio="0.5" initialCompression="35" suspTravel="0.25" spring="28" damper="80" frictionScale="2" mass="3.9" />
                     </wheel>
                     <wheel filename="$data/shared/wheels/tires/mitas/SFT/600_65R28.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
-                       <physics rotSpeed="1" restLoad="1" repr="backweelright" driveNode="backdriveweelright" forcePointRatio="0.5" initialCompression="35" suspTravel="0.25" spring="28" damper="80" frictionScale="2"  mass="3.9" />
+                        <physics rotSpeed="1" restLoad="1" repr="backweelright" driveNode="backdriveweelright" forcePointRatio="0.5" initialCompression="35" suspTravel="0.25" spring="28" damper="80" frictionScale="2" mass="3.9" />
                     </wheel>
-					
-					 </wheels>
+
+                </wheels>
             </wheelConfiguration>
-			
-		<wheelConfiguration name="TwinWheels" price="5500" brand="MITAS">
+
+            <wheelConfiguration name="TwinWheels" price="5500" brand="MITAS">
                 <wheels autoRotateBackSpeed="2.5">
                     <wheel filename="$data/shared/wheels/tires/mitas/SFT/680_80R42.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
                         <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="2" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="23" suspTravel="0.25" spring="40" damper="80"/>
                         <additionalWheel filename="$data/shared/wheels/tires/mitas/SFT/680_80R42.xml" configId="dual" offset="0.2">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|0" scale="0.25 0.25 0.25" offset="-0.21" />
-					</additionalWheel>
-						</wheel>
+                        </additionalWheel>
+                    </wheel>
                     <wheel filename="$data/shared/wheels/tires/mitas/SFT/680_80R42.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
                         <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="2" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="23" suspTravel="0.25" spring="40" damper="80"/>
                         <additionalWheel filename="$data/shared/wheels/tires/mitas/SFT/680_80R42.xml" configId="dual" offset="0.2">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|1" scale="0.25 0.25 0.25" offset="-0.21" />
-						</additionalWheel>
-						</wheel>
-						<wheel filename="$data/shared/wheels/tires/mitas/SFT/540_65R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
-                        <physics rotSpeed="1" restLoad="1" repr="midweelleft" driveNode="middriveweelleft"  forcePointRatio="0.5" initialCompression="25" suspTravel="0.15" spring="43" damper="80" frictionScale="2"  mass="3.9"/>
-                     <additionalWheel filename="$data/shared/wheels/tires/mitas/SFT/540_65R30.xml" configId="dual" offset="0.2">
+                        </additionalWheel>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/540_65R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
+                        <physics rotSpeed="1" restLoad="1" repr="midweelleft" driveNode="middriveweelleft" forcePointRatio="0.5" initialCompression="25" suspTravel="0.15" spring="43" damper="80" frictionScale="2" mass="3.9"/>
+                        <additionalWheel filename="$data/shared/wheels/tires/mitas/SFT/540_65R30.xml" configId="dual" offset="0.2">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|0" scale="0.25 0.25 0.25" offset="-0.21" />
-						</additionalWheel>
-					</wheel>
-                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/540_65R30.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
-                        <physics rotSpeed="1" restLoad="1" repr="midweelright" driveNode="middriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.15" spring="43" damper="80" frictionScale="2" mass="3.9"  />
-							<additionalWheel filename="$data/shared/wheels/tires/mitas/SFT/540_65R30.xml" configId="dual" offset="0.2">
+                        </additionalWheel>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/540_65R30.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
+                        <physics rotSpeed="1" restLoad="1" repr="midweelright" driveNode="middriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.15" spring="43" damper="80" frictionScale="2" mass="3.9" />
+                        <additionalWheel filename="$data/shared/wheels/tires/mitas/SFT/540_65R30.xml" configId="dual" offset="0.2">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|1" scale="0.25 0.25 0.25" offset="-0.21" />
-						</additionalWheel>
-				   </wheel>
+                        </additionalWheel>
+                    </wheel>
                     <wheel filename="$data/shared/wheels/tires/mitas/SFT/540_65R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
                         <physics rotSpeed="1" restLoad="1" repr="backweelleft" driveNode="backdriveweelleft" forcePointRatio="0.5" initialCompression="25" suspTravel="0.15" spring="43" damper="80" frictionScale="2" mass="3.9" />
-                     <additionalWheel filename="$data/shared/wheels/tires/mitas/SFT/540_65R30.xml" configId="dual" offset="0.2">
+                        <additionalWheel filename="$data/shared/wheels/tires/mitas/SFT/540_65R30.xml" configId="dual" offset="0.2">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|0" scale="0.25 0.25 0.25" offset="-0.21" />
-						</additionalWheel>
-					</wheel>
+                        </additionalWheel>
+                    </wheel>
                     <wheel filename="$data/shared/wheels/tires/mitas/SFT/540_65R30.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
-                       <physics rotSpeed="1" restLoad="1" repr="backweelright" driveNode="backdriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.15" spring="43" damper="80" frictionScale="2"  mass="3.9" />
-					<additionalWheel filename="$data/shared/wheels/tires/mitas/SFT/540_65R30.xml" configId="dual" offset="0.2">
+                        <physics rotSpeed="1" restLoad="1" repr="backweelright" driveNode="backdriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.15" spring="43" damper="80" frictionScale="2" mass="3.9" />
+                        <additionalWheel filename="$data/shared/wheels/tires/mitas/SFT/540_65R30.xml" configId="dual" offset="0.2">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|1" scale="0.25 0.25 0.25" offset="-0.21" />
-						</additionalWheel>
-					</wheel>
-                    
-                </wheels>
-				<objectChange node="midweelleft" scaleActive="0.75 0.95 0.95" scaleInactive="1 1 1"/> 
-				<objectChange node="midweelright" scaleActive="0.75 0.95 0.95" scaleInactive="1 1 1"/>
-				<objectChange node="backweelleft" scaleActive="0.75 0.95 0.95" scaleInactive="1 1 1"/>
-				<objectChange node="backweelright" scaleActive="0.75 0.95 0.95" scaleInactive="1 1 1"/>
-            </wheelConfiguration>  
-			
-			<wheelConfiguration name="$l10n_configuration_valueCrawler" price="5500" brand="MITAS">
-                <wheels autoRotateBackSpeed="2.5">
-                    <wheel  isLeft="true" hasTireTracks="true" hasParticles="true">
-                     <!--   <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="1.6" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="20" suspTravel="0.25" spring="24" damper="80" frictionScale="2"/> -->
-						 <physics rotSpeed="0" restLoad="3.1" repr="crawlerFrontLeft" forcePointRatio="0.5" radius="1.08" width="0.91" frictionScale="2" mass="0.4" initialCompression="20" suspTravel="0.2" spring="53" damper="105"/>
-						 <tire tireTrackAtlasIndex="7" />
-					</wheel>
-                    <wheel isLeft="false" hasTireTracks="true" hasParticles="true">
-                      <!--  <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="1.6" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="20" suspTravel="0.25" spring="24" damper="80" frictionScale="2"/> -->
-						  <physics rotSpeed="0" restLoad="3.1" repr="crawlerFrontRight" forcePointRatio="0.5" radius="1.08" width="0.91" frictionScale="2" mass="0.4" initialCompression="20" suspTravel="0.2" spring="53" damper="105"/>
-						 <tire tireTrackAtlasIndex="7" />
-					</wheel>
-					
-					<wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.6">
-                        <physics rotSpeed="1" restLoad="7.8" repr="midweelleft" driveNode="middriveweelleft"  forcePointRatio="0.5" initialCompression="30" suspTravel="0.06" spring="40" damper="90" frictionScale="2" mass="3.9" />
+                        </additionalWheel>
                     </wheel>
-                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.6">
+
+                </wheels>
+                <objectChange node="midweelleft" scaleActive="0.75 0.95 0.95" scaleInactive="1 1 1"/>
+                <objectChange node="midweelright" scaleActive="0.75 0.95 0.95" scaleInactive="1 1 1"/>
+                <objectChange node="backweelleft" scaleActive="0.75 0.95 0.95" scaleInactive="1 1 1"/>
+                <objectChange node="backweelright" scaleActive="0.75 0.95 0.95" scaleInactive="1 1 1"/>
+            </wheelConfiguration>
+
+            <wheelConfiguration name="$l10n_configuration_valueCrawler" price="5500" brand="MITAS">
+                <wheels autoRotateBackSpeed="2.5">
+                    <wheel isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <!--   <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="1.6" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="20" suspTravel="0.25" spring="24" damper="80" frictionScale="2"/> -->
+                        <physics rotSpeed="0" restLoad="3.1" repr="crawlerFrontLeft" forcePointRatio="0.5" radius="1.08" width="0.91" frictionScale="2" mass="0.4" initialCompression="20" suspTravel="0.2" spring="53" damper="105"/>
+                        <tire tireTrackAtlasIndex="7" />
+                    </wheel>
+                    <wheel isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <!--  <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="1.6" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="20" suspTravel="0.25" spring="24" damper="80" frictionScale="2"/> -->
+                        <physics rotSpeed="0" restLoad="3.1" repr="crawlerFrontRight" forcePointRatio="0.5" radius="1.08" width="0.91" frictionScale="2" mass="0.4" initialCompression="20" suspTravel="0.2" spring="53" damper="105"/>
+                        <tire tireTrackAtlasIndex="7" />
+                    </wheel>
+
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.6">
+                        <physics rotSpeed="1" restLoad="7.8" repr="midweelleft" driveNode="middriveweelleft" forcePointRatio="0.5" initialCompression="30" suspTravel="0.06" spring="40" damper="90" frictionScale="2" mass="3.9" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.6">
                         <physics rotSpeed="1" restLoad="7.8" repr="midweelright" driveNode="middriveweelright" forcePointRatio="0.5" initialCompression="30" suspTravel="0.06" spring="40" damper="90" frictionScale="2" mass="3.9" />
                     </wheel>
                     <wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.6">
@@ -414,43 +415,43 @@
                         <physics rotSpeed="1" restLoad="7.8" repr="backweelright" driveNode="backdriveweelright" forcePointRatio="0.5" initialCompression="30" suspTravel="0.06" spring="40" damper="90" frictionScale="2" mass="3.9" />
                     </wheel>
                 </wheels>
-				  <crawlers>
-                    <crawler filename="$data/shared/wheels/crawlers/lizard/crawler01.xml" linkNode="crawlerFrontLeft"  wheelIndex="1" isLeft="true"/>
+                <crawlers>
+                    <crawler filename="$data/shared/wheels/crawlers/lizard/crawler01.xml" linkNode="crawlerFrontLeft" wheelIndex="1" isLeft="true"/>
                     <crawler filename="$data/shared/wheels/crawlers/lizard/crawler01.xml" linkNode="crawlerFrontRight" wheelIndex="2" isLeft="false"/>
                 </crawlers>
-				<objectChange node="wheelFrontLeft"  visibilityActive="false" visibilityInactive="true"/>
-				<objectChange node="wheelFrontRight"  visibilityActive="false" visibilityInactive="true"/>
+                <objectChange node="wheelFrontLeft" visibilityActive="false" visibilityInactive="true"/>
+                <objectChange node="wheelFrontRight" visibilityActive="false" visibilityInactive="true"/>
             </wheelConfiguration>
-			
-			
+
+
         </wheelConfigurations>
-			
-			
-			
-        
+
+
+
+
         <hubs>
             <color0>SHARED_BLACK2</color0>
             <color1>SHARED_BLACK2</color1>
             <hub linkNode="wheelFrontLeft" filename="$data/shared/wheels/hubs/hub_n18_1.xml" isLeft="true" scale="0.4 0.4 0.4"/>
             <hub linkNode="wheelFrontRight" filename="$data/shared/wheels/hubs/hub_n18_1.xml" isLeft="false" scale="0.4 0.4 0.4"/>
-          	<hub linkNode="middriveweelleft" filename="$data/shared/wheels/hubs/hub_n8_4.xml" isLeft="true" scale="0.285 0.285 0.285"/>
+            <hub linkNode="middriveweelleft" filename="$data/shared/wheels/hubs/hub_n8_4.xml" isLeft="true" scale="0.285 0.285 0.285"/>
             <hub linkNode="middriveweelright" filename="$data/shared/wheels/hubs/hub_n8_4.xml" isLeft="false" scale="0.285 0.285 0.285"/>
-			<hub linkNode="backdriveweelleft" filename="$data/shared/wheels/hubs/hub_n8_4.xml" isLeft="true" scale="0.285 0.285 0.285"/>
+            <hub linkNode="backdriveweelleft" filename="$data/shared/wheels/hubs/hub_n8_4.xml" isLeft="true" scale="0.285 0.285 0.285"/>
             <hub linkNode="backdriveweelright" filename="$data/shared/wheels/hubs/hub_n8_4.xml" isLeft="false" scale="0.285 0.285 0.285"/>
-		
+
         </hubs>
         <ackermannSteeringConfigurations>
-		   <!-- <ackermannSteering rotSpeed="40" rotMax="25" rotCenter="0 0"/>  --> 
+            <!-- <ackermannSteering rotSpeed="40" rotMax="25" rotCenter="0 0"/>  -->
             <ackermannSteering rotSpeed="40" rotMax="45" rotCenterWheel1="1" rotCenterWheel2="2"/>
         </ackermannSteeringConfigurations>
     </wheels>
-	
-	 <articulatedAxis componentJointIndex="1" rotSpeed="-30" rotMax="30" rotMin="-30" anchorActor="0" aiRevereserNode="1>16"/>
-	
-	 <crabSteering distFromCompJointToCenterOfBackWheels="6.3695" aiSteeringModeIndex="1" toggleSpeedFactor="0.1">
-       
-		
-		 <steeringMode name="action_steeringModeAllWheel" >
+
+    <articulatedAxis componentJointIndex="1" rotSpeed="-30" rotMax="30" rotMin="-30" anchorActor="0" aiRevereserNode="1>16"/>
+
+    <crabSteering distFromCompJointToCenterOfBackWheels="6.3695" aiSteeringModeIndex="1" toggleSpeedFactor="0.1">
+
+
+        <steeringMode name="action_steeringModeAllWheel">
             <wheel index="1"/>
             <wheel index="2"/>
             <wheel index="3"/>
@@ -458,9 +459,9 @@
             <wheel index="5"/>
             <wheel index="6"/>
             <articulatedAxis offset="0" locked="false"/>
-		</steeringMode>
-			
-			 <steeringMode name="action_steeringModeFrontWheel">
+        </steeringMode>
+
+        <steeringMode name="action_steeringModeFrontWheel">
             <wheel index="1"/>
             <wheel index="2"/>
             <wheel index="3" locked="true"/>
@@ -469,7 +470,7 @@
             <wheel index="6" locked="true"/>
             <articulatedAxis offset="0" locked="false"/>
         </steeringMode>
-	    <steeringMode name="action_steeringModeCrabLeft" >
+        <steeringMode name="action_steeringModeCrabLeft">
             <wheel index="1" offset="0"/>
             <wheel index="2" offset="0"/>
             <wheel index="3" offset="14" locked="false"/>
@@ -477,9 +478,9 @@
             <wheel index="5" offset="14" locked="false"/>
             <wheel index="6" offset="14" locked="false"/>
             <articulatedAxis offset="-14" locked="false" />
-         
+
         </steeringMode>
-        <steeringMode name="action_steeringModeCrabRight" >
+        <steeringMode name="action_steeringModeCrabRight">
             <wheel index="1" offset="0"/>
             <wheel index="2" offset="0"/>
             <wheel index="3" offset="-14" locked="false"/>
@@ -487,10 +488,10 @@
             <wheel index="5" offset="-14" locked="false"/>
             <wheel index="6" offset="-14" locked="false"/>
             <articulatedAxis offset="14" locked="false" />
-           
+
         </steeringMode>
     </crabSteering>
-	 
+
     <enterable>
         <enterReferenceNode node="bigx1180_main_component1"/>
         <exitPoint node="exitPoint"/>
@@ -514,8 +515,8 @@
             <mirror node="mirrorDecal03" prio="1"/>
             <mirror node="mirrorDecal04" prio="2"/>
         </mirrors>
-		<characterTargetNodeModifier node="playerRightFootTarget" transitionTime="0.2" >
-          <!--  <state node="playerRightFootTargetGas"   referenceNode="gasPedal" directionReferenceNode="playerRightFootTargetGasRef" /> -->
+        <characterTargetNodeModifier node="playerRightFootTarget" transitionTime="0.2">
+            <!--  <state node="playerRightFootTargetGas" referenceNode="gasPedal" directionReferenceNode="playerRightFootTargetGasRef" /> -->
             <state node="playerRightFootTargetBrake" referenceNode="brakePedal" />
         </characterTargetNodeModifier>
         <enterAnimation name="enterAnimation"/>
@@ -530,7 +531,7 @@
         <steeringWheel node="steeringWheel" indoorRotation="540" outdoorRotation="30"/>
         <dashboards>
             <dashboard displayType="NUMBER" valueType="cruiseControl" numbers="numbersSpeedCC" numberColor="0.1 0.1 0.1 1" precision="0" groups="MOTOR_ACTIVE"/>
-            <!-- <dashboard displayType="ROT" valueType="accelerationAxis" node="gasPedal"   minRot="0 0 0" maxRot="10 0 0" doInterpolation="true" groups="MOTOR_ACTIVE"/> -->
+            <!-- <dashboard displayType="ROT" valueType="accelerationAxis" node="gasPedal" minRot="0 0 0" maxRot="10 0 0" doInterpolation="true" groups="MOTOR_ACTIVE"/> -->
             <dashboard displayType="ROT" valueType="decelerationAxis" node="brakePedal" minRot="0 0 0" maxRot="10 0 0" doInterpolation="true" groups="MOTOR_ACTIVE"/>
         </dashboards>
     </drivable>
@@ -591,8 +592,8 @@
                 <light node="workLightBackLow" lightTypes="1"/>
                 <light node="workLightFrontLow" lightTypes="2"/>
                 <light node="highBeamLow" lightTypes="3"/>
-				<light node="workbeamcagoboxlow" lightTypes="1"/>
-				
+                <light node="workbeamcagoboxlow" lightTypes="1"/>
+
             </low>
             <high>
                 <light node="frontLightHigh" lightTypes="0" excludedLightTypes="2 3"/>
@@ -601,19 +602,19 @@
                 <light node="workLightBackHighSide" lightTypes="1"/>
                 <light node="workLightFrontHigh1" lightTypes="2"/>
                 <light node="highBeamHigh" lightTypes="3"/>
-					<light node="backLightsHigh1" lightTypes="0"/>
-              <light node="trailerbackLightsHigh1"           lightTypes="0"/>
-			<light node="workbeamcagoboxhi" lightTypes="1"/>
-			  <brakeLight node="backLightsHigh1"/>
-			    <brakeLight node="trailerbackLightsHigh1"/>
+                <light node="backLightsHigh1" lightTypes="0"/>
+                <light node="trailerbackLightsHigh1" lightTypes="0"/>
+                <light node="workbeamcagoboxhi" lightTypes="1"/>
+                <brakeLight node="backLightsHigh1"/>
+                <brakeLight node="trailerbackLightsHigh1"/>
                 <turnLightLeft node="turnLightLeftFront"/>
                 <turnLightRight node="turnLightRightFront"/>
-				 <turnLightLeft node="trailerturnLightLeftBack"/>
-				<turnLightRight node="trailerturnLightRightBack"/>
+                <turnLightLeft node="trailerturnLightLeftBack"/>
+                <turnLightRight node="trailerturnLightRightBack"/>
                 <interiorLight node="interiorScreenLight"/>
-				<!-- <reverseLight node="reverseLight"/> -->
-				<reverseLight node="reversbeemleft"/>
-				<reverseLight node="reversbeemright"/>
+                <!-- <reverseLight node="reverseLight"/> -->
+                <reverseLight node="reversbeemleft"/>
+                <reverseLight node="reversbeemright"/>
             </high>
         </realLights>
         <defaultLights>
@@ -623,37 +624,37 @@
             <defaultLight shaderNode="cabLightStatic" lightTypes="0"/>
             <defaultLight shaderNode="frontlightHighBeamStatic" lightTypes="0 3"/>
             <defaultLight shaderNode="worklight03Static" lightTypes="2"/>
-			<defaultLight shaderNode="backlightright" lightTypes="0"/>
-			<defaultLight shaderNode="backlightleft" lightTypes="0"/>
-			<defaultLight shaderNode="worklichtcagobox" lightTypes="1"/>
+            <defaultLight shaderNode="backlightright" lightTypes="0"/>
+            <defaultLight shaderNode="backlightleft" lightTypes="0"/>
+            <defaultLight shaderNode="worklichtcagobox" lightTypes="1"/>
         </defaultLights>
-		
+
         <brakeLights>
             <brakeLight shaderNode="backlightStatic"/>
-			  <brakeLight shaderNode="backbrakeright"/>
-			  <brakeLight shaderNode="backbraketleft"/>
+            <brakeLight shaderNode="backbrakeright"/>
+            <brakeLight shaderNode="backbraketleft"/>
         </brakeLights>
-		
+
         <turnLights>
             <turnLightLeft shaderNode="sideMarkerStatic"/>
             <turnLightLeft shaderNode="turnlightLeftStatic"/>
             <turnLightRight shaderNode="turnlightRightStatic"/>
             <turnLightRight shaderNode="sideMarkerStatic1"/>
-			<turnLightLeft shaderNode="backturnleft"/>
+            <turnLightLeft shaderNode="backturnleft"/>
             <turnLightRight shaderNode="backbturnright"/>
         </turnLights>
-		
-		 <reverseLights>
-         	   <reverseLight shaderNode="reverselightStaticright"/>
-			   <reverseLight shaderNode="reverselightStaticleft"/>
-		</reverseLights>
-		
+
+        <reverseLights>
+            <reverseLight shaderNode="reverselightStaticright"/>
+            <reverseLight shaderNode="reverselightStaticleft"/>
+        </reverseLights>
+
         <beaconLights>
             <beaconLight node="beaconLight01" speed="0.015" filename="$data/shared/assets/beaconLights/lizard/beaconLight01.xml"/>
             <beaconLight node="beaconLight02" speed="0.015" filename="$data/shared/assets/beaconLights/lizard/beaconLight01.xml"/>
-			<beaconLight node="beaconLightcargo1" filename="$data/shared/assets/beaconLights/lizard/beaconLight02.xml"/>
+            <beaconLight node="beaconLightcargo1" filename="$data/shared/assets/beaconLights/lizard/beaconLight02.xml"/>
             <beaconLight node="beaconLightcargo2" filename="$data/shared/assets/beaconLights/lizard/beaconLight02.xml"/>
-          
+
         </beaconLights>
         <sounds>
             <switchLight template="SWITCH_01" linkNode="bigx1180_main_component1"/>
@@ -677,8 +678,8 @@
             <bottomArm rotationNode="feederHouse" referenceNode="attacherJointFront"/>
             <schema position="1 0" rotation="0" invertX="true"/>
         </attacherJoint>
-    
-	<attacherJoint node="1>7|0|5|0" rootNode="1>" jointType="trailer" lowerRotLimit="10 80 80" lowerTransLimit="0 0 0" comboTime="1" allowsJointLimitMovement="true" allowsLowering="false" canTurnOnImplement="false">
+
+        <attacherJoint node="1>7|0|5|0" rootNode="1>" jointType="trailer" lowerRotLimit="10 80 80" lowerTransLimit="0 0 0" comboTime="1" allowsJointLimitMovement="true" allowsLowering="false" canTurnOnImplement="false">
             <schema position="1 0" rotation="0" invertX="false"/>
         </attacherJoint>
         <sounds>
@@ -687,7 +688,7 @@
         </sounds>
     </attacherJoints>
     <connectionHoses>
-       <!-- <target attacherJointIndices="2" type="hydraulicIn" node="hydraulic05_in"/>
+        <!-- <target attacherJointIndices="2" type="hydraulicIn" node="hydraulic05_in"/>
         <target attacherJointIndices="2" type="hydraulicOut" node="hydraulic05_out"/>
         <target attacherJointIndices="2" type="hydraulicIn" node="hydraulic06_in"/>
         <target attacherJointIndices="2" type="hydraulicOut" node="hydraulic06_out"/>
@@ -698,16 +699,16 @@
         <target attacherJointIndices="1" type="hydraulicOut" node="hydraulic01_out"/>
         <target attacherJointIndices="1" type="hydraulicIn" node="hydraulic02_in"/>
         <target attacherJointIndices="1" type="hydraulicOut" node="hydraulic02_out"/>
-		
-	  <target attacherJointIndices="2" type="hydraulicIn" node="1>7|0|5|1|1" socket="hydraulic01">
+
+        <target attacherJointIndices="2" type="hydraulicIn" node="1>7|0|5|1|1" socket="hydraulic01">
             <objectChange node="1>7|0|5|1|3" rotationActive="0 0 -80" rotationInactive="0 0 0"/>
         </target>
         <target attacherJointIndices="2" type="hydraulicOut" node="1>7|0|5|1|2" socket="hydraulic01">
             <objectChange node="1>7|0|5|1|4" rotationActive="0 0 80" rotationInactive="0 0 0"/>
         </target>
-		<target attacherJointIndices="2" type="airDoubleRed" node="1>7|0|5|1|5" socket="air_red"/>
+        <target attacherJointIndices="2" type="airDoubleRed" node="1>7|0|5|1|5" socket="air_red"/>
         <target attacherJointIndices="2" type="airDoubleYellow" node="1>7|0|5|1|6" socket="air_yellow"/>
-        <target attacherJointIndices="2" type="electric" node="1>7|0|5|1|0"  socket="electric"/>
+        <target attacherJointIndices="2" type="electric" node="1>7|0|5|1|0" socket="electric"/>
     </connectionHoses>
     <fillUnit>
         <fillUnitConfigurations>
@@ -722,23 +723,23 @@
                         <dashboard displayType="NUMBER" valueType="fillLevelPct" numbers="numbersDef" numberColor="0.1 0.1 0.1 1" precision="0" groups="MOTOR_ACTIVE"/>
                         <dashboard displayType="ANIMATION" valueType="fillLevel" animName="defDisplay" groups="MOTOR_ACTIVE"/>
                     </fillUnit>
-					<fillUnit unitTextOverride="$l10n_unit_literShort" fillTypeCategories="bulk" capacity="48000">
-					  <exactFillRootNode node="1>7|1|0|0|26|0"/>
+                    <fillUnit unitTextOverride="$l10n_unit_literShort" fillTypeCategories="bulk" capacity="48000">
+                        <exactFillRootNode node="1>7|1|0|0|26|0"/>
                         <fillMassNode node="1>"/>
-					<!--<autoAimTargetNode node="1>7|1|0|0|26|1"/>
+                        <!--<autoAimTargetNode node="1>7|1|0|0|26|1"/>
 						  <fillAutoAimTargetNode startZ="1.2" endZ="-3.4" invert="false" fillUnitIndex="1" startPercentage="25"/>   -->
-						  
-						    <autoAimTargetNode node="1>7|1|0|0|26|1" startZ="0.15" endZ="-2.0" invert="false" fillUnitIndex="4" startPercentage="25"/>
-						<alarmTriggers>
+
+                        <autoAimTargetNode node="1>7|1|0|0|26|1" startZ="0.15" endZ="-2.0" invert="false" fillUnitIndex="4" startPercentage="25"/>
+                        <alarmTriggers>
                             <alarmTrigger minFillLevel="1" maxFillLevel="1" turnOffInTrigger="true"/>
                         </alarmTriggers>
-						</fillUnit>
+                    </fillUnit>
                 </fillUnits>
             </fillUnitConfiguration>
         </fillUnitConfigurations>
     </fillUnit>
-	
-	 <fillVolume>
+
+    <fillVolume>
         <fillVolumeConfigurations>
             <fillVolumeConfiguration>
                 <volumes>
@@ -763,10 +764,10 @@
             </dischargeInfo>
         </dischargeInfos>
     </fillVolume>
-  
-  
-  
-	
+
+
+
+
     <honk>
         <sound template="HONK_KRONE_BIGM" linkNode="0>"/>
     </honk>
@@ -821,26 +822,26 @@
         </dashboards>
         <sounds externalSoundFile="$data/sounds/vehicles/engine/krone_bigx_1180/krone_bigx_1180.xml"/>
     </motorized>
-  
-   <dischargeable>
-      
+
+    <dischargeable>
+
         <dischargeNode node="1>7|1|0|0|15|0|3|0|0" emptySpeed="1600" fillUnitIndex="4">
-				<raycast extraDistance="-0.5" maxDistance="16"/>
+            <raycast extraDistance="-0.5" maxDistance="16"/>
             <effects>
-				<effectNode effectNode="1>7|1|0|0|15|0|4|0" effectClass="ParticleEffect" particleType="UNLOADING" emitCountScale="15" lifespan="0.11" delay="0.5"/>
-               <!-- <effectNode effectNode="1>7|1|0|0|23|0" effectClass="ParticleEffect" particleType="UNLOADING" emitCountScale="15" lifespan="0.025" delay="0.5"/>
+                <effectNode effectNode="1>7|1|0|0|15|0|4|0" effectClass="ParticleEffect" particleType="UNLOADING" emitCountScale="15" lifespan="0.11" delay="0.5"/>
+                <!-- <effectNode effectNode="1>7|1|0|0|23|0" effectClass="ParticleEffect" particleType="UNLOADING" emitCountScale="15" lifespan="0.025" delay="0.5"/>
                 <effectNode effectNode="1>7|1|0|0|23|1" effectClass="ParticleEffect" particleType="UNLOADING" emitCountScale="15" lifespan="0.02" delay="0.5"/ -->>
                 <effectNode effectNode="1>7|1|0|0|15|0|4|1" effectClass="ParticleEffect" particleType="UNLOADING" emitCountScale="15" lifespan="0.02" delay="0.5"/>
                 <effectNode effectNode="1>7|1|0|0|15|0|4|2" effectClass="ParticleEffect" particleType="UNLOADING" emitCountScale="15" lifespan="0.02" delay="0.5"/>
                 <effectNode effectNode="1>7|1|0|0|15|0|4|3" effectClass="ParticleEffect" particleType="UNLOADING" emitCountScale="15" lifespan="0.02" delay="0.5"/>
                 <effectNode effectNode="1>7|1|0|0|15|0|4|4" effectClass="ParticleEffect" particleType="UNLOADING" emitCountScale="15" lifespan="0.02" delay="0.5"/>
-		
+
             </effects>
-		 </dischargeNode>
+        </dischargeNode>
     </dischargeable>
-  <pipe foldMinTime="0" foldMaxTime="0" foldMinState="1" foldMaxState="1" foldMinLimit="0" foldMaxLimit="0">
-	 <dischargeNode index="1" />
-	  
+    <pipe foldMinTime="0" foldMaxTime="0" foldMinState="1" foldMaxState="1" foldMinLimit="0" foldMaxLimit="0">
+        <dischargeNode index="1" />
+
         <unloadingTriggers>
             <unloadingTrigger node="1>7|1|0|0|28"/>
         </unloadingTriggers>
@@ -858,26 +859,26 @@
                 <state2 rotation="24 0 0"/>
             </pipeNode>
         </pipeNodes>
-	 	<states num="2" unloading="2"/>
-		 <animationNodes>
+        <states num="2" unloading="2"/>
+        <animationNodes>
             <animationNode node="1>7|1|0|0|15|0|0|0" class="ScrollingAnimation" scrollSpeed="0.35" scrollLength="1" shaderParameterName="offsetUV" shaderParameterComponent="1" toggleVisibility="false" turnOnFadeTime="0.5" turnOffFadeTime="0.5"/>
             <animationNode node="1>7|1|0|0|15|5" class="ScrollingAnimation" scrollSpeed="-0.35" scrollLength="1" shaderParameterName="offsetUV" shaderParameterComponent="1" toggleVisibility="false" turnOnFadeTime="0.5" turnOffFadeTime="0.5"/>
         </animationNodes>
-		   
-     
-    </pipe>	
+
+
+    </pipe>
     <allowFillFromAir value="false"/>
-    <combine  allowThreshingDuringRain="true" fillUnitIndex="4">
-	<chopper available="false"/>
+    <combine allowThreshingDuringRain="true" fillUnitIndex="4">
+        <chopper available="false"/>
         <swath available="false"/>
-		<processing toggleTime="0" />
-	 <fillEffect>
-     	 
-               <effectNode effectNode="pipeEffect1" delay="0" materialType="unloading" materialTypeId="1"/>
-                <effectNode effectNode="pipeEffect2" delay="0.1" materialType="unloading" materialTypeId="1"/>
-			<effectNode effectClass="PipeEffect" effectNode="pipeEffect3" delay="0.12" materialType="unloading" materialTypeId="1" maxBending="0.15" shapeScaleSpread="1.03 0.96 1 0"/>
-			
-		</fillEffect>
+        <processing toggleTime="0" />
+        <fillEffect>
+
+            <effectNode effectNode="pipeEffect1" delay="0" materialType="unloading" materialTypeId="1"/>
+            <effectNode effectNode="pipeEffect2" delay="0.1" materialType="unloading" materialTypeId="1"/>
+            <effectNode effectClass="PipeEffect" effectNode="pipeEffect3" delay="0.12" materialType="unloading" materialTypeId="1" maxBending="0.15" shapeScaleSpread="1.03 0.96 1 0"/>
+
+        </fillEffect>
         <animationNodes>
             <animationNode node="rotationPart01" rotSpeed="900" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="8"/>
             <animationNode node="rotationPart02" rotSpeed="-900" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="8"/>
@@ -901,7 +902,7 @@
                 <foldingParts startMoveDirection="1" turnOnFoldMinLimit="0" turnOnFoldMaxLimit="0.02" loadMovingToolStatesMaxLimit="1" loadMovingToolStatesMinLimit="-1">
                     <foldingPart animationName="foldGrainTank" speedScale="1.1"/>
                 </foldingParts>
-		
+
                 <foldingParts startMoveDirection="-1">
                     <foldingPart animationName="folding" speedScale="0.5"/>
                 </foldingParts>
@@ -946,23 +947,24 @@
         <animation name="temperatureDisplay">
             <part node="tempNeedle" startTime="0" endTime="1" startRot="0 0 0" endRot="0 -100 0"/>
         </animation>
-		
-		<animation name="foldGrainTank">
-		<part node="cabinRootFold" startTime="0" endTime="1" startTrans="0 2.640 1.875" endTrans="0 2.0 1.875"/>  
+
+        <animation name="foldGrainTank">
+            <part node="cabinRootFold" startTime="0" endTime="1" startTrans="0 2.640 1.875" endTrans="0 2.0 1.875"/>
             <part node="1>7|1|0|0" startTime="6" endTime="12" startRot="26 0 0" endRot="0 0 0"/>
             <part node="1>7|1|0|0|1" startTime="0" endTime="8" startRot="-21 0 0" endRot="0 0 0"/>
             <part node="1>7|1|0|0|2" startTime="0" endTime="8" startRot="-24 0 0" endRot="0 0 0"/>
             <part node="1>7|1" startTime="0" endTime="8" startRot="0 90 0" endRot="0 0 0"/>
-			<part node="pipeRot" startTime="6" endTime="12" startRot="42.5 0 0" endRot="6 0 0" />										<!--   ffffff-->
-        <!--    <part node="pipeRaycastNode" startTime="0" endTime="8" startRot="113 0 0" endRot="80 0 0" startRot="45 0 0" endRot="6 0 0/>  -->
-			<part node="pipeArm01" startTime="0" endTime="8" startRot="15 0 0" endRot="-14 0 0"  />
-            <part node="pipeArm02" startTime="0" endTime="8" startRot="113 0 0" endRot="75 0 0"  />
+            <part node="pipeRot" startTime="6" endTime="12" startRot="42.5 0 0" endRot="6 0 0" />
+            <!--   ffffff-->
+            <!--    <part node="pipeRaycastNode" startTime="0" endTime="8" startRot="113 0 0" endRot="80 0 0" startRot="45 0 0" endRot="6 0 0/>  -->
+            <part node="pipeArm01" startTime="0" endTime="8" startRot="15 0 0" endRot="-14 0 0" />
+            <part node="pipeArm02" startTime="0" endTime="8" startRot="113 0 0" endRot="75 0 0" />
             <part node="1>7|1|0|0|5" startTime="2" endTime="6" startRot="0 0 0" endRot="40 0 0"/>
             <part node="1>7|1|0|0|1|3" startTime="0" endTime="8" startRot="99 0 0" endRot="90 0 0"/>
             <part node="1>7|1|0|0|1|3|0" startTime="0" endTime="8" startTrans="0 0 1.46" endTrans="0 0 0"/>
-		</animation>
+        </animation>
 
-   </animations>
+    </animations>
     <wipers>
         <wiper animName="wiperFrontAnimation">
             <state animSpeed="0.75" animPause="2.0"/>
@@ -1012,21 +1014,21 @@
                 <dependentPart node="pipeLightOrientationArm02"/>
                 <dependentPart node="pipeLightHolder"/>
             </movingTool>
-			
-			<movingTool node="1>7|1|0|0">
+
+            <movingTool node="1>7|1|0|0">
                 <dependentPart node="1>7|1|0|1"/>
             </movingTool>
-			 <movingTool node="1>7|1|0|0|1" playSound="true"/>
+            <movingTool node="1>7|1|0|0|1" playSound="true"/>
             <movingTool node="1>7|1|0|0|15|0" playSound="true"/>
-			 <movingTool node="1>7|1|0|0|15">
+            <movingTool node="1>7|1|0|0|15">
                 <dependentPart node="1>7|1|0|0|14"/>
-        <!--    </movingTool>
+                <!--    </movingTool>
 						 <movingTool node="1>7|1">
                 <controls axis="AXIS_PIPE" invertAxis="false" mouseSpeedFactor="0.6" iconName="PIPE_END_ROTATE"/>
                 <rotation rotSpeed="15" rotAcceleration="80" rotMax="90" rotMin="-90" rotationAxis="2"/> -->
-                <!--<dependentPart node="1>7|0|5|2"/> --> 
+                <!--<dependentPart node="1>7|0|5|2"/> -->
             </movingTool>
-			
+
         </movingTools>
         <movingParts>
             <!-- axis back left -->
@@ -1076,15 +1078,15 @@
             <movingPart node="wiperFrontMiddleArm02" referencePoint="wiperFrontMiddleArm02Ref" referenceFrame="wiperFrontMiddleArm02Ref" isActiveDirty="true"/>
             <movingPart node="wiperFrontMiddle" referenceFrame="bigx1180_main_component1" isActiveDirty="true"/>
             <movingPart node="wiperFrontRight" referenceFrame="bigx1180_main_component1" isActiveDirty="true"/>
-			
-			 
-			 <movingPart node="1>7|1|0|1" referencePoint="1>7|1|0|0|22" referenceFrame="1>7|1|0|0">
+
+
+            <movingPart node="1>7|1|0|1" referencePoint="1>7|1|0|0|22" referenceFrame="1>7|1|0|0">
                 <translatingPart node="1>7|1|0|1|0"/>
             </movingPart>
             <movingPart node="1>7|1|0|0|14" referencePoint="1>7|1|0|0|3|0" referenceFrame="1>7|1|0|0|15">
                 <translatingPart node="1>7|1|0|0|14|0"/>
             </movingPart>
-			<movingPart node="0>0|14" referencePoint="1>7|0|1" referenceFrame="1>7|0|1" isActiveDirty="true">
+            <movingPart node="0>0|14" referencePoint="1>7|0|1" referenceFrame="1>7|0|1" isActiveDirty="true">
                 <translatingPart node="0>0|14|0"/>
             </movingPart>
             <movingPart node="0>0|15" referencePoint="1>7|0|2" referenceFrame="1>7|0|2" isActiveDirty="true">
@@ -1106,7 +1108,7 @@
                 <translatingPart node="1>7|1|0|0|4|0"/>
             </movingPart>
 
-			
+
         </movingParts>
         <sounds>
             <hydraulic template="DEFAULT_HYDRAULIC_SOUND"/>
@@ -1129,9 +1131,9 @@
     </dashboard>
     <ai>
         <collisionTrigger node="aiCollisionTrigger"/>
-		<!--<allowTurnBackward value="true"/> -->
-		<!--<collisionTrigger node="aiCollisionTriggerback"/> -->
-		
+        <!--<allowTurnBackward value="true"/> -->
+        <!--<collisionTrigger node="aiCollisionTriggerback"/> -->
+
     </ai>
     <foliageBending>
         <bendingNode minX="-1.65" maxX="1.65" minZ="-3.4" maxZ="2.9" yOffset="1.4"/>
@@ -1158,7 +1160,7 @@
         <i3dMapping id="bigx1180_vis" node="0>0"/>
         <i3dMapping id="wheelFrontLeft" node="0>0|0|0|2"/>
         <i3dMapping id="wheelFrontRight" node="0>0|0|1|2"/>
-		<i3dMapping id="crawlerFrontLeft" node="0>0|0|0|0"/>
+        <i3dMapping id="crawlerFrontLeft" node="0>0|0|0|0"/>
         <i3dMapping id="crawlerFrontRight" node="0>0|0|1|0"/>
         <i3dMapping id="crawlerFrontRight" node="0>0|0|1|0"/>
         <i3dMapping id="axisBackLeft" node="0>0|0|2|0|0"/>
@@ -1226,7 +1228,7 @@
         <i3dMapping id="workLightFrontHigh1" node="0>0|4|0|0|1"/>
         <i3dMapping id="beaconLight01" node="0>0|4|0|0|2"/>
         <i3dMapping id="beaconLight02" node="0>0|4|0|0|3"/>
-        <i3dMapping id="worklight03Static" node="0>0|4|0|0|4"/> 
+        <i3dMapping id="worklight03Static" node="0>0|4|0|0|4"/>
         <i3dMapping id="cabLightStatic" node="0>0|4|0|0|7"/>
         <i3dMapping id="seat" node="0>0|4|0|1"/>
         <i3dMapping id="joystick" node="0>0|4|0|1|0"/>
@@ -1265,8 +1267,8 @@
         <i3dMapping id="lightUpDecal02" node="0>0|4|0|2|0|2"/>
         <i3dMapping id="brakePedal" node="0>0|4|0|3"/>
         <i3dMapping id="playerRightFootTarget" node="0>0|4|0|4|0"/>
-		<i3dMapping id="playerRightFootTargetBrake" node="0>0|4|0|3|1"/>
-	
+        <i3dMapping id="playerRightFootTargetBrake" node="0>0|4|0|3|1"/>
+
         <i3dMapping id="playerLeftFootTarget" node="0>0|4|0|4|1"/>
         <i3dMapping id="wiperRight" node="0>0|4|0|5|0"/>
         <i3dMapping id="wiperLeft" node="0>0|4|0|5|1"/>
@@ -1393,51 +1395,51 @@
         <i3dMapping id="hosePart" node="0>0|11|0"/>
         <i3dMapping id="hoses1" node="0>1|3"/>
         <i3dMapping id="hoses2" node="0>1|4"/>
-		 <i3dMapping id="crawlerFrontLeft" node="0>0|0|0|0"/>
+        <i3dMapping id="crawlerFrontLeft" node="0>0|0|0|0"/>
         <i3dMapping id="crawlerlFrontRight" node="0>0|0|1|0"/>
-		<i3dMapping id="driveweelfrontleft" node="0>0|0|0|1"/>
-		<i3dMapping id="driveweelfrontright" node="0>0|0|1|1"/>
-		 <i3dMapping id="drivecrawlerFrontLeft" node="0>0|0|0|3"/>
+        <i3dMapping id="driveweelfrontleft" node="0>0|0|0|1"/>
+        <i3dMapping id="driveweelfrontright" node="0>0|0|1|1"/>
+        <i3dMapping id="drivecrawlerFrontLeft" node="0>0|0|0|3"/>
         <i3dMapping id="drovecrawlerlFrontRight" node="0>0|0|1|3"/>
-		
- 		<!-- trailer -->
-		  <i3dMapping id="aiCollisionTriggerback" node="1>17|0"/>
+
+        <!-- trailer -->
+        <i3dMapping id="aiCollisionTriggerback" node="1>17|0"/>
         <i3dMapping id="trailerTriggerback" node="1>17|1"/>
-		<i3dMapping id="reversbeemleft" node="1>7|0|6|2"/>
-		<i3dMapping id="reversbeemright" node="1>7|0|6|3"/>
-		<i3dMapping id="backbturnright" node="1>7|0|0|1|1|0|3"/>
-		<i3dMapping id="backturnleft" node="1>7|0|0|0|1|0|3"/>
-		<i3dMapping id="backbrakeright" node="1>7|0|0|1|1|0|4"/>
-		<i3dMapping id="backbraketleft" node="1>7|0|0|0|1|0|4"/>
-		<i3dMapping id="reverselightStaticright" node="1>7|0|6|0|0"/>
-		<i3dMapping id="reverselightStaticleft" node="1>7|0|6|1|0" />
-		<i3dMapping id="backlightright" node="1>7|0|0|1|1|0|5"/>
-		<i3dMapping id="backlightleft" node="1>7|0|0|0|1|0|5"/>
-		
-		<i3dMapping id="turnLightRighttrailer" node="1>1|1|0|0" />
-		<i3dMapping id="turnLightLefttrailer" node="1>1|0|0|0" />
-		
-		<i3dMapping id="beaconLightcargo1" node="1>7|1|0|0|2|0"/>
-		<i3dMapping id="beaconLightcargo2" node="1>7|1|0|0|2|1"/>
-		<i3dMapping id="beaconLightcargo3" node="1>7|1|0|0|2|2"/>
-		<i3dMapping id="beaconLightcargo4" node="1>7|1|0|0|2|3"/>
-		<i3dMapping id="worklichtcagobox" node="1>7|1|0|0|15|6|0|3|0"/>
-		<i3dMapping id="workbeamcagoboxhi" node="1>7|1|0|0|15|6|0|2"/>
-		<i3dMapping id="workbeamcagoboxlow" node="1>7|1|0|0|15|6|0|1"/>
-	
-		<i3dMapping id="trailerturnLightLeftBack" node="1>7|0|7|0"/>
-		<i3dMapping id="trailerturnLightRightBack" node="1>7|0|7|1"/>
-		<i3dMapping id="trailerbackLightsHigh1" node="1>7|0|8"/>
-		<i3dMapping id="trailerbackLightsHigh2" node="1>7|0|8|0"/>
-			
-		<i3dMapping id="midweelleft" node="1>0"/>
-		<i3dMapping id="midweelright" node="1>1"/>
-		<i3dMapping id="backweelleft" node="1>2"/>
-		<i3dMapping id="backweelright" node="1>3"/>	
-		<!--driveweels-->
-		<i3dMapping id="middriveweelleft" node="1>0|0"/>
-		<i3dMapping id="middriveweelright" node="1>1|0"/>
-		<i3dMapping id="backdriveweelleft" node="1>2|0"/>
-		<i3dMapping id="backdriveweelright" node="1>3|0"/>
-	</i3dMappings>
+        <i3dMapping id="reversbeemleft" node="1>7|0|6|2"/>
+        <i3dMapping id="reversbeemright" node="1>7|0|6|3"/>
+        <i3dMapping id="backbturnright" node="1>7|0|0|1|1|0|3"/>
+        <i3dMapping id="backturnleft" node="1>7|0|0|0|1|0|3"/>
+        <i3dMapping id="backbrakeright" node="1>7|0|0|1|1|0|4"/>
+        <i3dMapping id="backbraketleft" node="1>7|0|0|0|1|0|4"/>
+        <i3dMapping id="reverselightStaticright" node="1>7|0|6|0|0"/>
+        <i3dMapping id="reverselightStaticleft" node="1>7|0|6|1|0" />
+        <i3dMapping id="backlightright" node="1>7|0|0|1|1|0|5"/>
+        <i3dMapping id="backlightleft" node="1>7|0|0|0|1|0|5"/>
+
+        <i3dMapping id="turnLightRighttrailer" node="1>1|1|0|0" />
+        <i3dMapping id="turnLightLefttrailer" node="1>1|0|0|0" />
+
+        <i3dMapping id="beaconLightcargo1" node="1>7|1|0|0|2|0"/>
+        <i3dMapping id="beaconLightcargo2" node="1>7|1|0|0|2|1"/>
+        <i3dMapping id="beaconLightcargo3" node="1>7|1|0|0|2|2"/>
+        <i3dMapping id="beaconLightcargo4" node="1>7|1|0|0|2|3"/>
+        <i3dMapping id="worklichtcagobox" node="1>7|1|0|0|15|6|0|3|0"/>
+        <i3dMapping id="workbeamcagoboxhi" node="1>7|1|0|0|15|6|0|2"/>
+        <i3dMapping id="workbeamcagoboxlow" node="1>7|1|0|0|15|6|0|1"/>
+
+        <i3dMapping id="trailerturnLightLeftBack" node="1>7|0|7|0"/>
+        <i3dMapping id="trailerturnLightRightBack" node="1>7|0|7|1"/>
+        <i3dMapping id="trailerbackLightsHigh1" node="1>7|0|8"/>
+        <i3dMapping id="trailerbackLightsHigh2" node="1>7|0|8|0"/>
+
+        <i3dMapping id="midweelleft" node="1>0"/>
+        <i3dMapping id="midweelright" node="1>1"/>
+        <i3dMapping id="backweelleft" node="1>2"/>
+        <i3dMapping id="backweelright" node="1>3"/>
+        <!--driveweels-->
+        <i3dMapping id="middriveweelleft" node="1>0|0"/>
+        <i3dMapping id="middriveweelright" node="1>1|0"/>
+        <i3dMapping id="backdriveweelleft" node="1>2|0"/>
+        <i3dMapping id="backdriveweelright" node="1>3|0"/>
+    </i3dMappings>
 </vehicle>
