@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <vehicle type="combineDrivable">
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
     <storeData>
@@ -30,6 +30,7 @@
     <base>
         <typeDesc>$l10n_typeDesc_harvester</typeDesc>
         <filename>bigX1180.i3d</filename>
+        <sounds filename="$data/vehicles/krone/bigX1180/sounds/bigX1180.xml"/>
        <!-- <size width="3.5" length="17" lengthOffset="0.5"/> -->
 		<size width="3.5" length="17"/>
         <components>
