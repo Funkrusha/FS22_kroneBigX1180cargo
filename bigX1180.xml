@@ -43,12 +43,8 @@
             <!--	<component centerOfMass="0 0.97 -5.02" solverIterationCount="20" mass="11300"/> -->
             <joint component1="1" component2="2" node="0>2" rotLimit="0 0 8" transLimit="0 0 0"/>
         </components>
-        <schemaOverlay attacherJointPosition="0 0">
-            <default name="DEFAULT_VEHICLE"/>
-            <turnedOn name="DEFAULT_VEHICLE_ON"/>
-            <selected name="DEFAULT_VEHICLE_SELECTED"/>
-            <turnedOnSelected name="DEFAULT_VEHICLE_SELECTED_ON"/>
-        </schemaOverlay>
+        <schemaOverlay attacherJointPosition="0 0" name="HARVESTER" />
+        <mapHotspot type="HARVESTER" />
     </base>
 
     <wheels>
