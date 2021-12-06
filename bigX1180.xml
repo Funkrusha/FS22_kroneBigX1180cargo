@@ -54,23 +54,23 @@
         <wheelConfigurations>
             <wheelConfiguration name="$l10n_configuration_valueDefault" price="0" brand="TRELLEBORG">
                 <wheels autoRotateBackSpeed="1.6">
-               <wheel filename="wheels/trelleborg/710_70R42.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.4" >
+               <wheel filename="$data/shared/wheels/tires/trelleborg/TM900/710_70R42.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.4" >
                         <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="1.6" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="25" suspTravel="0.2" spring="43" damper="40" frictionScale="2"/>
                     </wheel>
-                    <wheel filename="wheels/trelleborg/710_70R42.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.4">
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM900/710_70R42.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.4">
                         <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="1.6" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="25" suspTravel="0.2" spring="43" damper="40" frictionScale="2"/>
                     </wheel>
 				
-					<wheel filename="wheels/trelleborg/520_70R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.4">
+					<wheel filename="$data/shared/wheels/tires/trelleborg/TM700/520_70R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.4">
                         <physics rotSpeed="1" restLoad="1" repr="midweelleft" driveNode="middriveweelleft"  forcePointRatio="0.5" initialCompression="25" suspTravel="0.05" spring="40" damper="80" frictionScale="2.5" mass="3.9" />
                     </wheel>
-                    <wheel filename="wheels/trelleborg/520_70R30.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.4">
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM700/520_70R30.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.4">
                         <physics rotSpeed="1" restLoad="1" repr="midweelright" driveNode="middriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.05" spring="40" damper="80" frictionScale="2.5" mass="3.9" />
                     </wheel>
-                    <wheel filename="wheels/trelleborg/520_70R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.4">
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM700/520_70R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.4">
                         <physics rotSpeed="1" restLoad="1" repr="backweelleft" driveNode="backdriveweelleft" forcePointRatio="0.5" initialCompression="25" suspTravel="0.05" spring="40" damper="80" frictionScale="2.5"  mass="3.9"/>
                     </wheel>
-                    <wheel filename="wheels/trelleborg/520_70R30.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.4">
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM700/520_70R30.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.4">
                         <physics rotSpeed="1" restLoad="1" repr="backweelright" driveNode="backdriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.05" spring="40" damper="80" frictionScale="2.5"  mass="3.9"/>
                     </wheel>
 					
@@ -81,23 +81,23 @@
 
          <wheelConfiguration name="$l10n_configuration_valueWheelBroad" price="2000" brand="TRELLEBORG">
                 <wheels autoRotateBackSpeed="1.6">
-                     <wheel filename="wheels/trelleborg/800_70R38.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.6">
+                     <wheel filename="$data/shared/wheels/tires/trelleborg/TM900/800_70R38.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.6">
                         <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="2.6" repr="wheelFrontLeft" driveNode="wheelFrontLeft" forcePointRatio="0.5" initialCompression="23" suspTravel="0.23" spring="43" damper="40" frictionScale="2" />
                     </wheel>
-                    <wheel filename="wheels/trelleborg/800_70R38.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.6">
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM900/800_70R38.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.6">
                         <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="2.6" repr="wheelFrontRight" driveNode="wheelFrontRight" forcePointRatio="0.5" initialCompression="23" suspTravel="0.23" spring="43" damper="40" frictionScale="2"/>
                     </wheel>
 					
-					<wheel filename="wheels/trelleborg/650_60R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
+					<wheel filename="$data/shared/wheels/tires/trelleborg/TM900/650_60R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
                         <physics rotSpeed="1" restLoad="4.2" repr="midweelleft" driveNode="middriveweelleft"  forcePointRatio="0.5" initialCompression="35" suspTravel="0.11" spring="30" damper="80" frictionScale="2.5" mass="3.9" />
                     </wheel>
-                    <wheel filename="wheels/trelleborg/650_60R34.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM900/650_60R34.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
                         <physics rotSpeed="1" restLoad="4.2" repr="midweelright" driveNode="middriveweelright" forcePointRatio="0.5" initialCompression="35" suspTravel="0.11" spring="30" damper="80" frictionScale="2.5" mass="3.9" />
                     </wheel>
-                    <wheel filename="wheels/trelleborg/650_60R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM900/650_60R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
                         <physics rotSpeed="1" restLoad="4.2" repr="backweelleft" driveNode="backdriveweelleft" forcePointRatio="0.5" initialCompression="35" suspTravel="0.11" spring="30" damper="80" frictionScale="2.5"  mass="3.9"/>
                     </wheel>
-                    <wheel filename="wheels/trelleborg/650_60R34.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM900/650_60R34.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
                         <physics rotSpeed="1" restLoad="4.2" repr="backweelright" driveNode="backdriveweelright" forcePointRatio="0.5" initialCompression="35" suspTravel="0.11" spring="30" damper="80" frictionScale="2.5"  mass="3.9"/>
                     </wheel>
 					
@@ -121,16 +121,16 @@
 						 <tire tireTrackAtlasIndex="7" />
 					</wheel>
 					
-					<wheel filename="wheels/trelleborg/710_60R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
+					<wheel filename="$data/shared/wheels/tires/trelleborg/TM900/710_60R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
                         <physics rotSpeed="1" restLoad="4" repr="midweelleft" driveNode="middriveweelleft"  forcePointRatio="0.5"  radius="0.769" initialCompression="30" suspTravel="0.1" spring="45" damper="80" frictionScale="2.5" mass="3.9" />
                     </wheel>
-                    <wheel filename="wheels/trelleborg/710_60R30.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM900/710_60R30.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
                         <physics rotSpeed="1" restLoad="4" repr="midweelright" driveNode="middriveweelright" forcePointRatio="0.5" radius="0.769" initialCompression="30" suspTravel="0.1" spring="45" damper="80" frictionScale="2.5" mass="3.9" />
                     </wheel>
-                    <wheel filename="wheels/trelleborg/710_60R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM900/710_60R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
                         <physics rotSpeed="1" restLoad="4" repr="backweelleft" driveNode="backdriveweelleft" forcePointRatio="0.5" radius="0.775" initialCompression="30" suspTravel="0.1" spring="45" damper="80" frictionScale="2.5"  mass="3.9"/>
                     </wheel>
-                    <wheel filename="wheels/trelleborg/710_60R30.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM900/710_60R30.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.52" width="0.45">
                         <physics rotSpeed="1" restLoad="4" repr="backweelright" driveNode="backdriveweelright" forcePointRatio="0.5" radius="0.775" initialCompression="30" suspTravel="0.1" spring="45" damper="80" frictionScale="2.5"  mass="3.9"/>
                     </wheel>
 					
@@ -160,30 +160,30 @@
 						  <physics rotSpeed="0" restLoad="3.1" repr="crawlerFrontRight" forcePointRatio="0.5" radius="1.08" width="0.94" frictionScale="2" mass="0.4" initialCompression="20" suspTravel="0.25" spring="53" damper="105"/>
 						 <tire tireTrackAtlasIndex="7" />
 					</wheel>
-						<wheel filename="wheels/trelleborg/420_85R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
+						<wheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
                         <physics rotSpeed="1" restLoad="3.2" repr="midweelleft" driveNode="middriveweelleft"  forcePointRatio="0.5" initialCompression="25" suspTravel="0.08" spring="43" damper="80" frictionScale="2"  mass="3.9"/>
-                     <additionalWheel filename="wheels/trelleborg/420_85R34.xml" configId="dual" offset="0.1">
+                     <additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.1">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|0" scale="0.25 0.25 0.25" offset="-0.21" />
 						</additionalWheel>
 					</wheel>
-                    <wheel filename="wheels/trelleborg/420_85R34.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
                         <physics rotSpeed="1" restLoad="3.2" repr="midweelright" driveNode="middriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.08" spring="43" damper="80" frictionScale="2" mass="3.9"  />
-							<additionalWheel filename="wheels/trelleborg/420_85R34.xml" configId="dual" offset="0.1">
+							<additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.1">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|1" scale="0.25 0.25 0.25" offset="-0.21" />
 						</additionalWheel>
 				   </wheel>
-                    <wheel filename="wheels/trelleborg/420_85R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
                         <physics rotSpeed="1" restLoad="3.2" repr="backweelleft" driveNode="backdriveweelleft" forcePointRatio="0.5" initialCompression="25" suspTravel="0.08" spring="43" damper="80" frictionScale="2" mass="3.9" />
-                     <additionalWheel filename="wheels/trelleborg/420_85R34.xml" configId="dual" offset="0.1">
+                     <additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.1">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|0" scale="0.25 0.25 0.25" offset="-0.21" />
 						</additionalWheel>
 					</wheel>
-                    <wheel filename="wheels/trelleborg/420_85R34.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
                         <physics rotSpeed="1" restLoad="3.2" repr="backweelright" driveNode="backdriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.08" spring="43" damper="80" frictionScale="2"  mass="3.9" />
-					<additionalWheel filename="wheels/trelleborg/420_85R34.xml" configId="dual" offset="0.1">
+					<additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.1">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|1" scale="0.25 0.25 0.25" offset="-0.21" />
 						</additionalWheel>
@@ -205,44 +205,44 @@
 			
 			<wheelConfiguration name="$l10n_configuration_valueTwinWheelsNarrow" price="4000" brand="TRELLEBORG">
                 <wheels autoRotateBackSpeed="2.5">
-                    <wheel filename="wheels/trelleborg/480_80R50.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM600/480_80R50.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
                         <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="2" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="23" suspTravel="0.25" spring="40" damper="80"/>
-                        <additionalWheel filename="wheels/trelleborg/480_80R50.xml" configId="dual" offset="0.2">
+                        <additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/480_80R50.xml" configId="dual" offset="0.2">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|0" scale="0.25 0.25 0.25" offset="-0.21" />
 					</additionalWheel>
 						</wheel>
-                    <wheel filename="wheels/trelleborg/480_80R50.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM600/480_80R50.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
                         <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="2" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="23" suspTravel="0.25" spring="40" damper="80"/>
-                        <additionalWheel filename="wheels/trelleborg/480_80R50.xml" configId="dual" offset="0.1">
+                        <additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/480_80R50.xml" configId="dual" offset="0.1">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|1" scale="0.25 0.25 0.25" offset="-0.21" />
 						</additionalWheel>
 						</wheel>
-						<wheel filename="wheels/trelleborg/420_85R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
+						<wheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
                         <physics rotSpeed="1" restLoad="3.2" repr="midweelleft" driveNode="middriveweelleft"  forcePointRatio="0.5" initialCompression="25" suspTravel="0.08" spring="43" damper="80" frictionScale="2"  mass="3.9"/>
-                     <additionalWheel filename="wheels/trelleborg/420_85R34.xml" configId="dual" offset="0.1">
+                     <additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.1">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|0" scale="0.25 0.25 0.25" offset="-0.21" />
 						</additionalWheel>
 					</wheel>
-                    <wheel filename="wheels/trelleborg/420_85R34.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
                         <physics rotSpeed="1" restLoad="3.2" repr="midweelright" driveNode="middriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.08" spring="43" damper="80" frictionScale="2" mass="3.9"  />
-							<additionalWheel filename="wheels/trelleborg/420_85R34.xml" configId="dual" offset="0.1">
+							<additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.1">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|1" scale="0.25 0.25 0.25" offset="-0.21" />
 						</additionalWheel>
 				   </wheel>
-                    <wheel filename="wheels/trelleborg/420_85R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
                         <physics rotSpeed="1" restLoad="3.2" repr="backweelleft" driveNode="backdriveweelleft" forcePointRatio="0.5" initialCompression="25" suspTravel="0.08" spring="43" damper="80" frictionScale="2" mass="3.9" />
-                     <additionalWheel filename="wheels/trelleborg/420_85R34.xml" configId="dual" offset="0.1">
+                     <additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.1">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|0" scale="0.25 0.25 0.25" offset="-0.21" />
 						</additionalWheel>
 					</wheel>
-                    <wheel filename="wheels/trelleborg/420_85R34.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
                         <physics rotSpeed="1" restLoad="3.2" repr="backweelright" driveNode="backdriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.08" spring="43" damper="80" frictionScale="2"  mass="3.9" />
-					<additionalWheel filename="wheels/trelleborg/420_85R34.xml" configId="dual" offset="0.1">
+					<additionalWheel filename="$data/shared/wheels/tires/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.1">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|1" scale="0.25 0.25 0.25" offset="-0.21" />
 						</additionalWheel>
@@ -264,16 +264,16 @@
                     <wheel filename="$data/shared/wheels/mitas/SFT/900_60R42.xml" isLeft="false" hasTireTracks="true" hasParticles="true" scale="1 1.2 1.2">
                         <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="2.1" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="25" suspTravel="0.1" spring="43" damper="40" frictionScale="2"/>
                     </wheel>
-					  <wheel filename="wheels/mitas/710_55R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
+					  <wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
                         <physics rotSpeed="1" restLoad="3.1" repr="midweelleft" driveNode="middriveweelleft"  forcePointRatio="0.5" initialCompression="25" suspTravel="0.1" spring="37" damper="90" frictionScale="2" mass="3.9" />
                     </wheel>
-                    <wheel filename="wheels/mitas/710_55R30.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
                         <physics rotSpeed="1" restLoad="3.1" repr="midweelright" driveNode="middriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.1" spring="37" damper="90" frictionScale="2" mass="3.9" />
                     </wheel>
-                    <wheel filename="wheels/mitas/710_55R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
                         <physics rotSpeed="1" restLoad="3.1" repr="backweelleft" driveNode="backdriveweelleft" forcePointRatio="0.5" initialCompression="25" suspTravel="0.1" spring="37" damper="90" frictionScale="2" mass="3.9" />
                     </wheel>
-                    <wheel filename="wheels/mitas/710_55R30.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
                         <physics rotSpeed="1" restLoad="3.1" repr="backweelright" driveNode="backdriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.1" spring="37" damper="90" frictionScale="2" mass="3.9" />
                     </wheel>
 					
@@ -283,22 +283,22 @@
 			
 			 <wheelConfiguration name="$l10n_configuration_valueWheelBroad" price="0" brand="MITAS">
                 <wheels autoRotateBackSpeed="1.6">
-                       <wheel filename="wheels/mitas/900_60R42.xml" isLeft="true" hasTireTracks="true" hasParticles="true" scale="1 1.2 1.2">
+                       <wheel filename="$data/shared/wheels/tires/mitas/SFT/900_60R42.xml" isLeft="true" hasTireTracks="true" hasParticles="true" scale="1 1.2 1.2">
                         <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="2.1" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="25" suspTravel="0.1" spring="43" damper="40" frictionScale="2"/>
                     </wheel>
-                    <wheel filename="wheels/mitas/900_60R42.xml" isLeft="false" hasTireTracks="true" hasParticles="true" scale="1 1.2 1.2">
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/900_60R42.xml" isLeft="false" hasTireTracks="true" hasParticles="true" scale="1 1.2 1.2">
                         <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="2.1" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="25" suspTravel="0.1" spring="43" damper="40" frictionScale="2"/>
                     </wheel>
-					<wheel filename="wheels/mitas/710_55R30_2.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
+					<wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30_2.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
                         <physics rotSpeed="1" restLoad="3.1" repr="midweelleft" driveNode="middriveweelleft"  forcePointRatio="0.5" initialCompression="25" suspTravel="0.06" spring="37" damper="90" frictionScale="2" mass="3.9" />
                     </wheel>
-                    <wheel filename="wheels/mitas/710_55R30_2.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30_2.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
                         <physics rotSpeed="1" restLoad="3.1" repr="midweelright" driveNode="middriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.06" spring="37" damper="90" frictionScale="2" mass="3.9" />
                     </wheel>
-                    <wheel filename="wheels/mitas/710_55R30_2.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30_2.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
                         <physics rotSpeed="1" restLoad="3.1" repr="backweelleft" driveNode="backdriveweelleft" forcePointRatio="0.5" initialCompression="25" suspTravel="0.06" spring="37" damper="90" frictionScale="2" mass="3.9" />
                     </wheel>
-                    <wheel filename="wheels/mitas/710_55R30_2.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30_2.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
                         <physics rotSpeed="1" restLoad="3.1" repr="backweelright" driveNode="backdriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.06" spring="37" damper="90" frictionScale="2" mass="3.9" />
                     </wheel>
 					
@@ -306,30 +306,30 @@
             </wheelConfiguration>
 			<wheelConfiguration name="$l10n_configuration_valueTwinWheelsFront" price="5000" brand="MITAS">
                 <wheels autoRotateBackSpeed="2.5">
-                    <wheel filename="wheels/mitas/650_75R42twin.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/650_75R42.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
                         <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="2" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="25" suspTravel="0.2" spring="40" damper="80"/>
-                        <additionalWheel filename="wheels/mitas/650_75R42twin.xml" configId="dual" offset="0.2">
+                        <additionalWheel filename="$data/shared/wheels/tires/mitas/SFT/650_75R42.xml" configId="dual" offset="0.2">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|0" scale="0.25 0.25 0.25" offset="-0.21" />
 					</additionalWheel>
 						</wheel>
-                    <wheel filename="wheels/mitas/650_75R42twin.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/650_75R42.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
                         <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="2" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="25" suspTravel="0.2" spring="40" damper="80"/>
-                        <additionalWheel filename="wheels/mitas/650_75R42twin.xml" configId="dual" offset="0.2">
+                        <additionalWheel filename="$data/shared/wheels/tires/mitas/SFT/650_75R42.xml" configId="dual" offset="0.2">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|1" scale="0.25 0.25 0.25" offset="-0.21" />
 						</additionalWheel>
 						</wheel>
-					<wheel filename="wheels/mitas/600_65R28.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
+					<wheel filename="$data/shared/wheels/tires/mitas/SFT/600_65R28.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
                         <physics rotSpeed="1" restLoad="1" repr="midweelleft" driveNode="middriveweelleft"  forcePointRatio="0.5" initialCompression="35" suspTravel="0.25" spring="28" damper="80" frictionScale="2"  mass="3.9"/>
                     </wheel>
-                    <wheel filename="wheels/mitas/600_65R28.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/600_65R28.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
                         <physics rotSpeed="1" restLoad="1" repr="midweelright" driveNode="middriveweelright" forcePointRatio="0.5" initialCompression="35" suspTravel="0.25" spring="28" damper="80" frictionScale="2" mass="3.9"  />
                     </wheel>
-                    <wheel filename="wheels/mitas/600_65R28.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/600_65R28.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
                         <physics rotSpeed="1" restLoad="1" repr="backweelleft" driveNode="backdriveweelleft" forcePointRatio="0.5" initialCompression="35" suspTravel="0.25" spring="28" damper="80" frictionScale="2" mass="3.9" />
                     </wheel>
-                    <wheel filename="wheels/mitas/600_65R28.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/600_65R28.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.5">
                        <physics rotSpeed="1" restLoad="1" repr="backweelright" driveNode="backdriveweelright" forcePointRatio="0.5" initialCompression="35" suspTravel="0.25" spring="28" damper="80" frictionScale="2"  mass="3.9" />
                     </wheel>
 					
@@ -338,44 +338,44 @@
 			
 		<wheelConfiguration name="TwinWheels" price="5500" brand="MITAS">
                 <wheels autoRotateBackSpeed="2.5">
-                    <wheel filename="wheels/mitas/680_80R42.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/680_80R42.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
                         <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="2" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="23" suspTravel="0.25" spring="40" damper="80"/>
-                        <additionalWheel filename="wheels/mitas/680_80R42.xml" configId="dual" offset="0.2">
+                        <additionalWheel filename="$data/shared/wheels/tires/mitas/SFT/680_80R42.xml" configId="dual" offset="0.2">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|0" scale="0.25 0.25 0.25" offset="-0.21" />
 					</additionalWheel>
 						</wheel>
-                    <wheel filename="wheels/mitas/680_80R42.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/680_80R42.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
                         <physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="2" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="23" suspTravel="0.25" spring="40" damper="80"/>
-                        <additionalWheel filename="wheels/mitas/680_80R42.xml" configId="dual" offset="0.2">
+                        <additionalWheel filename="$data/shared/wheels/tires/mitas/SFT/680_80R42.xml" configId="dual" offset="0.2">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|1" scale="0.25 0.25 0.25" offset="-0.21" />
 						</additionalWheel>
 						</wheel>
-						<wheel filename="wheels/mitas/540_65R30twin.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
+						<wheel filename="$data/shared/wheels/tires/mitas/SFT/540_65R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
                         <physics rotSpeed="1" restLoad="1" repr="midweelleft" driveNode="middriveweelleft"  forcePointRatio="0.5" initialCompression="25" suspTravel="0.15" spring="43" damper="80" frictionScale="2"  mass="3.9"/>
-                     <additionalWheel filename="wheels/mitas/540_65R30twin.xml" configId="dual" offset="0.2">
+                     <additionalWheel filename="$data/shared/wheels/tires/mitas/SFT/540_65R30.xml" configId="dual" offset="0.2">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|0" scale="0.25 0.25 0.25" offset="-0.21" />
 						</additionalWheel>
 					</wheel>
-                    <wheel filename="wheels/mitas/540_65R30twin.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/540_65R30.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
                         <physics rotSpeed="1" restLoad="1" repr="midweelright" driveNode="middriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.15" spring="43" damper="80" frictionScale="2" mass="3.9"  />
-							<additionalWheel filename="wheels/mitas/540_65R30twin.xml" configId="dual" offset="0.2">
+							<additionalWheel filename="$data/shared/wheels/tires/mitas/SFT/540_65R30.xml" configId="dual" offset="0.2">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|1" scale="0.25 0.25 0.25" offset="-0.21" />
 						</additionalWheel>
 				   </wheel>
-                    <wheel filename="wheels/mitas/540_65R30twin.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/540_65R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
                         <physics rotSpeed="1" restLoad="1" repr="backweelleft" driveNode="backdriveweelleft" forcePointRatio="0.5" initialCompression="25" suspTravel="0.15" spring="43" damper="80" frictionScale="2" mass="3.9" />
-                     <additionalWheel filename="wheels/mitas/540_65R30twin.xml" configId="dual" offset="0.2">
+                     <additionalWheel filename="$data/shared/wheels/tires/mitas/SFT/540_65R30.xml" configId="dual" offset="0.2">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|0" scale="0.25 0.25 0.25" offset="-0.21" />
 						</additionalWheel>
 					</wheel>
-                    <wheel filename="wheels/mitas/540_65R30twin.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/540_65R30.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.3">
                        <physics rotSpeed="1" restLoad="1" repr="backweelright" driveNode="backdriveweelright" forcePointRatio="0.5" initialCompression="25" suspTravel="0.15" spring="43" damper="80" frictionScale="2"  mass="3.9" />
-					<additionalWheel filename="wheels/mitas/540_65R30twin.xml" configId="dual" offset="0.2">
+					<additionalWheel filename="$data/shared/wheels/tires/mitas/SFT/540_65R30.xml" configId="dual" offset="0.2">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                             <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|1" scale="0.25 0.25 0.25" offset="-0.21" />
 						</additionalWheel>
@@ -401,16 +401,16 @@
 						 <tire tireTrackAtlasIndex="7" />
 					</wheel>
 					
-					<wheel filename="wheels/mitas/710_55R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.6">
+					<wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.6">
                         <physics rotSpeed="1" restLoad="7.8" repr="midweelleft" driveNode="middriveweelleft"  forcePointRatio="0.5" initialCompression="30" suspTravel="0.06" spring="40" damper="90" frictionScale="2" mass="3.9" />
                     </wheel>
-                    <wheel filename="wheels/mitas/710_55R30.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.6">
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30.xml"  isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.6">
                         <physics rotSpeed="1" restLoad="7.8" repr="midweelright" driveNode="middriveweelright" forcePointRatio="0.5" initialCompression="30" suspTravel="0.06" spring="40" damper="90" frictionScale="2" mass="3.9" />
                     </wheel>
-                    <wheel filename="wheels/mitas/710_55R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.6">
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30.xml" isLeft="true" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.6">
                         <physics rotSpeed="1" restLoad="7.8" repr="backweelleft" driveNode="backdriveweelleft" forcePointRatio="0.5" initialCompression="30" suspTravel="0.06" spring="40" damper="90" frictionScale="2" mass="3.9" />
                     </wheel>
-                    <wheel filename="wheels/mitas/710_55R30.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.6">
+                    <wheel filename="$data/shared/wheels/tires/mitas/SFT/710_55R30.xml" isLeft="false" hasTireTracks="true" hasParticles="true" radius="0.5" width="0.6">
                         <physics rotSpeed="1" restLoad="7.8" repr="backweelright" driveNode="backdriveweelright" forcePointRatio="0.5" initialCompression="30" suspTravel="0.06" spring="40" damper="90" frictionScale="2" mass="3.9" />
                     </wheel>
                 </wheels>
