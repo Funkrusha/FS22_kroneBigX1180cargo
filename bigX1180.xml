@@ -1399,8 +1399,8 @@
         <i3dMapping id="drovecrawlerlFrontRight" node="0>0|0|1|3"/>
 
         <!-- trailer -->
-        <i3dMapping id="aiCollisionTriggerback" node="1>17|0"/>
-        <i3dMapping id="trailerTriggerback" node="1>17|1"/>
+        <!-- TODO <i3dMapping id="aiCollisionTriggerback" node="1>17|0"/> -->
+        <!-- TODO <i3dMapping id="trailerTriggerback" node="1>17|1"/> -->
         <i3dMapping id="reversbeemleft" node="1>7|0|6|2"/>
         <i3dMapping id="reversbeemright" node="1>7|0|6|3"/>
         <i3dMapping id="backbturnright" node="1>7|0|0|1|1|0|3"/>
@@ -1412,8 +1412,9 @@
         <i3dMapping id="backlightright" node="1>7|0|0|1|1|0|5"/>
         <i3dMapping id="backlightleft" node="1>7|0|0|0|1|0|5"/>
 
-        <i3dMapping id="turnLightRighttrailer" node="1>1|1|0|0" />
-        <i3dMapping id="turnLightLefttrailer" node="1>1|0|0|0" />
+        <!-- indicators -->
+        <!-- TODO <i3dMapping id="turnLightRighttrailer" node="1>1|1|0|0" /> -->
+        <!-- TODO <i3dMapping id="turnLightLefttrailer" node="1>1|0|0|0" /> -->
 
         <i3dMapping id="beaconLightcargo1" node="1>7|1|0|0|2|0"/>
         <i3dMapping id="beaconLightcargo2" node="1>7|1|0|0|2|1"/>
