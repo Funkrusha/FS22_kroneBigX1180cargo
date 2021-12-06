@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <vehicle type="combineDrivable">
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
     <storeData>
@@ -820,7 +820,6 @@
             <dashboard displayType="ANIMATION" valueType="speed" animName="speedDisplay" minValueAnim="0" maxValueAnim="50" groups="MOTOR_ACTIVE"/>
             <dashboard displayType="ANIMATION" valueType="motorTemperature" animName="temperatureDisplay" minValueAnim="20" maxValueAnim="120" groups="MOTOR_ACTIVE"/>
         </dashboards>
-        <sounds externalSoundFile="$data/sounds/vehicles/engine/krone_bigx_1180/krone_bigx_1180.xml"/>
     </motorized>
 
     <dischargeable>
