@@ -680,7 +680,7 @@
         </attacherJoint>
         <sounds>
             <attach template="ATTACH_01"/>
-            <hydraulic template="DEFAULT_HYDRAULIC_SOUND"/>
+            <!-- <hydraulic template="DEFAULT_HYDRAULIC_SOUND"/> -->
         </sounds>
     </attacherJoints>
     <connectionHoses>
@@ -1105,9 +1105,9 @@
 
 
         </movingParts>
-        <sounds>
+        <!-- <sounds>
             <hydraulic template="DEFAULT_HYDRAULIC_SOUND"/>
-        </sounds>
+        </sounds> -->
     </cylindered>
     <suspensions>
         <suspension node="cabinRoot" weight="400" minRotation="-2.5 0 -2.5" maxRotation="2.5 0 2.5" suspensionParametersX="200 17" suspensionParametersZ="200 17"/>
