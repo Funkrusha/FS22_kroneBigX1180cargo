@@ -1412,10 +1412,6 @@
         <i3dMapping id="backlightright" node="1>7|0|0|1|1|0|5"/>
         <i3dMapping id="backlightleft" node="1>7|0|0|0|1|0|5"/>
 
-        <!-- indicators -->
-        <!-- TODO <i3dMapping id="turnLightRighttrailer" node="1>1|1|0|0" /> -->
-        <!-- TODO <i3dMapping id="turnLightLefttrailer" node="1>1|0|0|0" /> -->
-
         <i3dMapping id="beaconLightcargo1" node="1>7|1|0|0|2|0"/>
         <i3dMapping id="beaconLightcargo2" node="1>7|1|0|0|2|1"/>
         <i3dMapping id="beaconLightcargo3" node="1>7|1|0|0|2|2"/>
