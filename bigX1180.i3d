@@ -18,12 +18,12 @@
     <File fileId="48" filename="$data/shared/assets/assetLibraryDecals_vmask.png"/>
     <File fileId="44" filename="$data/shared/assets/assetLibraryStickers_diffuse.png"/>
     <File fileId="27" filename="$data/shared/assets/dashboardSymbols_diffuse.png"/>
-    <File fileId="65" filename="$data/shared/assets/lights/lizard/rear3ChamberLight_05_normal.png"/>
-    <File fileId="66" filename="$data/shared/assets/lights/lizard/rear3ChamberLight_05_vmask.png"/>
-    <File fileId="100" filename="$data/shared/assets/lights/lizard/rear5ChamberLight_02_normal.png"/>
-    <File fileId="101" filename="$data/shared/assets/lights/lizard/rear5ChamberLight_02_vmask.png"/>
-    <File fileId="71" filename="$data/shared/assets/lights/lizard/rearLightOvalLED_01_normal.png"/>
-    <File fileId="72" filename="$data/shared/assets/lights/lizard/rearLightOvalLED_01_vmask.png"/>
+    <File fileId="65" filename="lights/rear3ChamberLight_05_normal.png"/>
+    <File fileId="66" filename="lights/rear3ChamberLight_05_vmask.png"/>
+    <File fileId="100" filename="lights/rear5ChamberLight_02_normal.png"/>
+    <File fileId="101" filename="lights/rear5ChamberLight_02_vmask.png"/>
+    <File fileId="71" filename="lights/rearLightOvalLED_01_normal.png"/>
+    <File fileId="72" filename="lights/rearLightOvalLED_01_vmask.png"/>
     <File fileId="16" filename="$data/shared/clearGlass_diffuse.png"/>
     <File fileId="67" filename="$data/shared/clearPlastic_diffuse.png"/>
     <File fileId="87" filename="$data/shared/connectionHoses/hoses1_vmask.png"/>
@@ -90,13 +90,13 @@
     <File fileId="57" filename="texturen/kroneShuttelBox_diffuse.png"/>
     <File fileId="68" filename="texturen/ns_klein.png"/>
     <File fileId="80" filename="texturen/silber_diffuse.png"/>
-    <File fileId="92" filename="textures/100.png"/>
-    <File fileId="86" filename="textures/25.png"/>
-    <File fileId="88" filename="textures/30.png"/>
-    <File fileId="89" filename="textures/40.png"/>
-    <File fileId="90" filename="textures/50.png"/>
-    <File fileId="91" filename="textures/60.png"/>
-    <File fileId="85" filename="textures/blechschild_specular.png"/>
+    <File fileId="92" filename="texturen/100.png"/>
+    <File fileId="86" filename="texturen/25.png"/>
+    <File fileId="88" filename="texturen/30.png"/>
+    <File fileId="89" filename="texturen/40.png"/>
+    <File fileId="90" filename="texturen/50.png"/>
+    <File fileId="91" filename="texturen/60.png"/>
+    <File fileId="85" filename="texturen/blechschild_specular.png"/>
   </Files>
 
 
