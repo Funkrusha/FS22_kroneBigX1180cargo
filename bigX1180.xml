@@ -844,20 +844,20 @@
         <unloadingTriggers>
             <unloadingTrigger node="1>7|1|0|0|28"/>
         </unloadingTriggers>
-		  <pipeNodes>
+        <pipeNodes>
             <pipeNode node="1>7|1|0|0|15|0" rotationSpeeds="0 0 10">
-                <state1 rotation="0 90 -6"/>
+                <state rotation="0 90 -6"/>
                 <state2 rotation="0 90 -30"/>
             </pipeNode>
             <pipeNode node="1>7|1|0|0|15" translationSpeeds="0 0 0.4">
-			 <state1 translation="0 -0.7 -4.44"/>
-			 <state2 translation="0 -0.7 -5.44"/>
-			</pipeNode>
+                <state translation="0 -0.7 -4.44"/>
+                <state2 translation="0 -0.7 -5.44"/>
+            </pipeNode>
             <pipeNode node="1>7|1|0|0|3" rotationSpeeds="10 0 0">
-                <state1 rotation="0 0 0"/>
+                <state rotation="0 0 0"/>
                 <state2 rotation="24 0 0"/>
-			</pipeNode>
-	       </pipeNodes>
+            </pipeNode>
+        </pipeNodes>
 	 	<states num="2" unloading="2"/>
 		 <animationNodes>
             <animationNode node="1>7|1|0|0|15|0|0|0" class="ScrollingAnimation" scrollSpeed="0.35" scrollLength="1" shaderParameterName="offsetUV" shaderParameterComponent="1" toggleVisibility="false" turnOnFadeTime="0.5" turnOffFadeTime="0.5"/>
