@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="MLA-T 533-145 V+" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="14" filename="textures/100.png"/>
+    <File fileId="8" filename="textures/25.png"/>
+    <File fileId="10" filename="textures/30.png"/>
+    <File fileId="11" filename="textures/40.png"/>
+    <File fileId="12" filename="textures/50.png"/>
+    <File fileId="13" filename="textures/60.png"/>
+    <File fileId="3" filename="textures/blechschild_specular.dds"/>
+    <File fileId="4" filename="$data/shaders/vehicleShader.xml"/>
+    <File fileId="9" filename="$data/shared/connectionHoses/hoses1_specular.dds"/>
+    <File fileId="2" filename="$data/shared/default_normal.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="UnnamedMaterial" materialId="5" customShaderId="4">
+      <Texture fileId="14"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="9"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="UnnamedMaterial" materialId="7" customShaderId="4">
+      <Texture fileId="11"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="9"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="UnnamedMaterial" materialId="9" customShaderId="4">
+      <Texture fileId="10"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="9"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="Blechscheibe" materialId="8" diffuseColor="1 1 1 1" customShaderId="4" customShaderVariation="colorMask">
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.1 0.1 0.1 16"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="UnnamedMaterial" materialId="6" customShaderId="4">
+      <Texture fileId="13"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="9"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="UnnamedMaterial" materialId="4" customShaderId="4">
+      <Texture fileId="8"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="9"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="UnnamedMaterial" materialId="25" customShaderId="4">
+      <Texture fileId="12"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="9"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="Blechschild.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="Blechschild" clipDistance="50" nodeId="17" materialIds="8" castsShadows="true" receiveShadows="true" distanceBlending="false">
+      <Shape shapeId="2" name="25" clipDistance="50" nodeId="18" materialIds="4" distanceBlending="false"/>
+      <Shape shapeId="3" name="30" visibility="false" clipDistance="50" nodeId="19" materialIds="9" distanceBlending="false"/>
+      <Shape shapeId="4" name="40" visibility="false" clipDistance="50" nodeId="20" materialIds="7" distanceBlending="false"/>
+      <Shape shapeId="4" name="50" visibility="false" clipDistance="50" nodeId="28" materialIds="25" distanceBlending="false"/>
+      <Shape shapeId="5" name="60" visibility="false" clipDistance="50" nodeId="21" materialIds="6" distanceBlending="false"/>
+      <Shape shapeId="6" name="100" visibility="false" clipDistance="50" nodeId="22" materialIds="5" distanceBlending="false"/>
+    </Shape>
+  </Scene>
+
+</i3D>

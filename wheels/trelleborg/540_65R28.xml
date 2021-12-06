@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<wheel>
+    <default>
+        <physics radius="0.706" width="0.54" mass="0.173" tireType="mud" frictionScale="1.60" maxLongStiffness="9" maxLatStiffness="110" maxLatStiffnessLoad="2" />
+        <tire filename="$data/shared/wheels/trelleborg/TM800/R28_TM800.i3d" nodeLeft="2|0" nodeRight="2|0" maxDeformation="0.07" isCareWheel="false" tireTrackAtlasIndex="0" />
+        <outerRim filename="$data/shared/wheels/rims/rim001.i3d" node="1|0" widthAndDiam="16 28" />
+         <innerRim filename="$data/shared/wheels/rims/rim003.i3d" nodeLeft="1|0" nodeRight="1|1" widthAndDiam="16 28" />
+    </default>
+    <configurations>
+        <configuration id="dual" >
+            <innerRim filename="-" nodeLeft="-" nodeRight="-" widthAndDiam="-" />
+        </configuration>
+        <configuration id="weight1" >
+            <additional filename="$data/shared/wheels/weights/weight001.i3d" nodeLeft="0|0" nodeRight="0|1" offset="0.05" scale="0.45 0.55 0.55" mass="0.6" />
+        </configuration>
+    </configurations>
+</wheel>

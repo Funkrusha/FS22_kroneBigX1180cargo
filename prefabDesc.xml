@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<prefabDesc descVersion="1">
+    <author>LU Gaming</author>
+    <version>1.0.0.0</version>
+	<title>
+	<en>Sheet Metal Sign With Speed Sticker</en>
+	<de>Blechschild Mit Geschwindigkeitsaufklebern</de>
+</title>
+	<description>
+        <en><![CDATA[Speed ​​sticker including sheet metal sign]]></en>
+		<de><![CDATA[Geschwindigkeitsaufkleber inklusive Blechschild]]></de>
+    </description>
+	<categories>
+        <category>Other</category>
+        <category>Static</category>
+    </categories>
+	<prefabs>
+		<prefab name="Sheet metal sign with speed sticker" i3dFilename="Blechschild.i3d" />
+    </prefabs>
+	<iconFilename>icon.dds</iconFilename>
+</prefabDesc>
