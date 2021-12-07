@@ -2,7 +2,7 @@
 <!-- <modDesc descVersion="43"> -->
 <modDesc descVersion="62">
     <author>homealone, converted by Funkrusha</author>
-    <version>1.7</version>
+    <version>1.8</version>
 
     <title>
         <en>Krone BigX 1180 Cargo</en>
@@ -12,6 +12,9 @@
         <en>
             <![CDATA[Price: 515000€
 Power: 1156HP
+changelog 1.8
+
+converted to LS22
 
 changelog 1.7
 
