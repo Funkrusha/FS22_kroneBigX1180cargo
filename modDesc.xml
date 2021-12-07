@@ -3,13 +3,13 @@
 <modDesc descVersion="62">
     <author>homealone, converted by Funkrusha</author>
     <version>1.7</version>
-     
-	<title>
+
+    <title>
         <en>Krone BigX 1180 Cargo</en>
     </title>
-	 <multiplayer supported="true"/>
+    <multiplayer supported="true"/>
     <description>
-       <en>
+        <en>
             <![CDATA[Price: 515000€
 Power: 1156HP
 
@@ -50,11 +50,9 @@ removed unnessery files
         </en>
 
     </description>
-	
-	<iconFilename>Icon_BigX1100Cargo.dds</iconFilename>
-		 <multiplayer supported="true"/>
-	<storeItems>
-       <storeItem xmlFilename="bigX1180.xml"/>
-		 <!--  <storeItem rootNode="vehicle" xmlFilename="bigX1180.xml"/> -->
+
+    <iconFilename>Icon_BigX1100Cargo.dds</iconFilename>
+    <storeItems>
+        <storeItem xmlFilename="bigX1180.xml"/>
     </storeItems>
 </modDesc>
