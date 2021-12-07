@@ -6,51 +6,51 @@
   </Asset>
 
   <Files>
-    <File fileId="61" filename="lights/rear3ChamberLight_05_normal.png"/>
-    <File fileId="62" filename="lights/rear3ChamberLight_05_vmask.png"/>
-    <File fileId="96" filename="lights/rear5ChamberLight_02_normal.png"/>
-    <File fileId="97" filename="lights/rear5ChamberLight_02_vmask.png"/>
-    <File fileId="67" filename="lights/rearLightOvalLED_01_normal.png"/>
-    <File fileId="68" filename="lights/rearLightOvalLED_01_vmask.png"/>
-    <File fileId="88" filename="texturen/100.png"/>
-    <File fileId="82" filename="texturen/25.png"/>
-    <File fileId="84" filename="texturen/30.png"/>
-    <File fileId="85" filename="texturen/40.png"/>
-    <File fileId="86" filename="texturen/50.png"/>
-    <File fileId="87" filename="texturen/60.png"/>
-    <File fileId="98" filename="texturen/Arbeitscheinwerfer.png"/>
-    <File fileId="70" filename="texturen/Basis_normal.png"/>
-    <File fileId="71" filename="texturen/Basis_specular.png"/>
-    <File fileId="75" filename="texturen/Box1_specular.png"/>
-    <File fileId="78" filename="texturen/Box2_specular.png"/>
-    <File fileId="72" filename="texturen/Box_diffuse.png"/>
-    <File fileId="54" filename="texturen/Box_normal.png"/>
-    <File fileId="73" filename="texturen/Box_specular.png"/>
-    <File fileId="52" filename="texturen/Decal_Cargo.png"/>
-    <File fileId="58" filename="texturen/Hecktraeger.png"/>
-    <File fileId="59" filename="texturen/Hecktraeger_specular.png"/>
-    <File fileId="79" filename="texturen/Klappe_specular.png"/>
-    <File fileId="99" filename="texturen/Schiene_diffuse.png"/>
-    <File fileId="100" filename="texturen/Schiene_specular.png"/>
-    <File fileId="57" filename="texturen/Universal_Specular_2048.png"/>
-    <File fileId="60" filename="texturen/Warntafel.png"/>
-    <File fileId="89" filename="texturen/Zyl.png"/>
-    <File fileId="77" filename="texturen/Zyl_specular.png"/>
-    <File fileId="74" filename="texturen/beige_diffuse.png"/>
-    <File fileId="81" filename="texturen/blechschild_specular.png"/>
-    <File fileId="65" filename="texturen/grau.png"/>
-    <File fileId="94" filename="texturen/grimmeDecal_diffuse.png"/>
-    <File fileId="90" filename="texturen/grimmeSE260_diffuse.png"/>
-    <File fileId="91" filename="texturen/grimmeTectron415Belt01_diffuse.png"/>
-    <File fileId="92" filename="texturen/grimmeTectron415Belt01_normal.png"/>
-    <File fileId="93" filename="texturen/grimmeTectron415Belt01_specular.png"/>
-    <File fileId="50" filename="texturen/gruen.png"/>
-    <File fileId="56" filename="texturen/gruen_diffuse.png"/>
-    <File fileId="51" filename="texturen/gruen_specular.png"/>
-    <File fileId="69" filename="texturen/kroneShuttelBoxDecals_diffuse.png"/>
-    <File fileId="53" filename="texturen/kroneShuttelBox_diffuse.png"/>
-    <File fileId="64" filename="texturen/ns_klein.png"/>
-    <File fileId="76" filename="texturen/silber_diffuse.png"/>
+    <File fileId="61" filename="textures/lights/rear3ChamberLight_05_normal.png"/>
+    <File fileId="62" filename="textures/lights/rear3ChamberLight_05_vmask.png"/>
+    <File fileId="96" filename="textures/lights/rear5ChamberLight_02_normal.png"/>
+    <File fileId="97" filename="textures/lights/rear5ChamberLight_02_vmask.png"/>
+    <File fileId="67" filename="textures/lights/rearLightOvalLED_01_normal.png"/>
+    <File fileId="68" filename="textures/lights/rearLightOvalLED_01_vmask.png"/>
+    <File fileId="88" filename="textures/100.png"/>
+    <File fileId="82" filename="textures/25.png"/>
+    <File fileId="84" filename="textures/30.png"/>
+    <File fileId="85" filename="textures/40.png"/>
+    <File fileId="86" filename="textures/50.png"/>
+    <File fileId="87" filename="textures/60.png"/>
+    <File fileId="98" filename="textures/Arbeitscheinwerfer.png"/>
+    <File fileId="70" filename="textures/Basis_normal.png"/>
+    <File fileId="71" filename="textures/Basis_specular.png"/>
+    <File fileId="75" filename="textures/Box1_specular.png"/>
+    <File fileId="78" filename="textures/Box2_specular.png"/>
+    <File fileId="72" filename="textures/Box_diffuse.png"/>
+    <File fileId="54" filename="textures/Box_normal.png"/>
+    <File fileId="73" filename="textures/Box_specular.png"/>
+    <File fileId="52" filename="textures/Decal_Cargo.png"/>
+    <File fileId="58" filename="textures/Hecktraeger.png"/>
+    <File fileId="59" filename="textures/Hecktraeger_specular.png"/>
+    <File fileId="79" filename="textures/Klappe_specular.png"/>
+    <File fileId="99" filename="textures/Schiene_diffuse.png"/>
+    <File fileId="100" filename="textures/Schiene_specular.png"/>
+    <File fileId="57" filename="textures/Universal_Specular_2048.png"/>
+    <File fileId="60" filename="textures/Warntafel.png"/>
+    <File fileId="89" filename="textures/Zyl.png"/>
+    <File fileId="77" filename="textures/Zyl_specular.png"/>
+    <File fileId="74" filename="textures/beige_diffuse.png"/>
+    <File fileId="81" filename="textures/blechschild_specular.png"/>
+    <File fileId="65" filename="textures/grau.png"/>
+    <File fileId="94" filename="textures/grimmeDecal_diffuse.png"/>
+    <File fileId="90" filename="textures/grimmeSE260_diffuse.png"/>
+    <File fileId="91" filename="textures/grimmeTectron415Belt01_diffuse.png"/>
+    <File fileId="92" filename="textures/grimmeTectron415Belt01_normal.png"/>
+    <File fileId="93" filename="textures/grimmeTectron415Belt01_specular.png"/>
+    <File fileId="50" filename="textures/gruen.png"/>
+    <File fileId="56" filename="textures/gruen_diffuse.png"/>
+    <File fileId="51" filename="textures/gruen_specular.png"/>
+    <File fileId="69" filename="textures/kroneShuttelBoxDecals_diffuse.png"/>
+    <File fileId="53" filename="textures/kroneShuttelBox_diffuse.png"/>
+    <File fileId="64" filename="textures/ns_klein.png"/>
+    <File fileId="76" filename="textures/silber_diffuse.png"/>
     <File fileId="20" filename="$data/fs19support/shaders/dashboardLightsShader.xml"/>
     <File fileId="26" filename="$data/fs19support/shaders/dashboardSymbolsShader.xml"/>
     <File fileId="95" filename="$data/fs19support/shaders/emissiveLightsShader.xml"/>
@@ -1629,13 +1629,13 @@
       <Attribute name="i3d_locatorPrefix" type="string" value="locatorRef_"/>
       <Attribute name="i3d_refBrand" type="string" value="hella"/>
       <Attribute name="i3d_refModel" type="string" value="hellaWorkingLightRound_01"/>
-      <Attribute name="i3d_referencedLightPath" type="string" value="bin/data/shared/assets/lights/hella/hellaWorkingLightRound_01.ma"/>
+      <Attribute name="i3d_referencedLightPath" type="string" value="bin/data/shared/assets/textures/lights/hella/hellaWorkingLightRound_01.ma"/>
     </UserAttribute>
     <UserAttribute nodeId="1979">
       <Attribute name="i3d_locatorPrefix" type="string" value="locatorRef_"/>
       <Attribute name="i3d_refBrand" type="string" value="hella"/>
       <Attribute name="i3d_refModel" type="string" value="hellaWorkingLightRound_01"/>
-      <Attribute name="i3d_referencedLightPath" type="string" value="bin/data/shared/assets/lights/hella/hellaWorkingLightRound_01.ma"/>
+      <Attribute name="i3d_referencedLightPath" type="string" value="bin/data/shared/assets/textures/lights/hella/hellaWorkingLightRound_01.ma"/>
     </UserAttribute>
     <UserAttribute nodeId="2031">
       <Attribute name="liw" type="boolean" value="false"/>

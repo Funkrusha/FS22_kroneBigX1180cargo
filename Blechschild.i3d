@@ -6,13 +6,13 @@
   </Asset>
 
   <Files>
-    <File fileId="14" filename="texturen/100.png"/>
-    <File fileId="8" filename="texturen/25.png"/>
-    <File fileId="10" filename="texturen/30.png"/>
-    <File fileId="11" filename="texturen/40.png"/>
-    <File fileId="12" filename="texturen/50.png"/>
-    <File fileId="13" filename="texturen/60.png"/>
-    <File fileId="3" filename="texturen/blechschild_specular.dds"/>
+    <File fileId="14" filename="textures/100.png"/>
+    <File fileId="8" filename="textures/25.png"/>
+    <File fileId="10" filename="textures/30.png"/>
+    <File fileId="11" filename="textures/40.png"/>
+    <File fileId="12" filename="textures/50.png"/>
+    <File fileId="13" filename="textures/60.png"/>
+    <File fileId="3" filename="textures/blechschild_specular.dds"/>
     <File fileId="4" filename="$data/shaders/vehicleShader.xml"/>
     <File fileId="9" filename="$data/shared/connectionHoses/hoses1_vmask.dds"/>
     <File fileId="2" filename="$data/shared/default_normal.png"/>
