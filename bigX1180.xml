@@ -1165,8 +1165,8 @@
             <shaderParameter name="colorMat3" value="KRONE_RED1"/>
         </material>
     </baseMaterial>
-    <wearable wearDuration="480" workMultiplier="4" fieldMultiplier="2"/>
-    <washable dirtDuration="40" washDuration="1" workMultiplier="5" fieldMultiplier="3"/>
+    <wearable wearDuration="480" workMultiplier="5" fieldMultiplier="2"/>
+    <washable dirtDuration="90" washDuration="1" workMultiplier="4" fieldMultiplier="2"/>
     <i3dMappings>
         <i3dMapping id="bigx1180_main_component1" node="0>"/>
         <i3dMapping id="bigx1180_vis" node="0>0"/>
