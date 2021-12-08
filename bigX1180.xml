@@ -8,7 +8,14 @@
         <specs>
             <power>1156</power>
             <maxSpeed>40</maxSpeed>
-            <combination>X-Collect 900-3</combination>
+            <combination xmlFilename="$data/vehicles/kemper/plus345/plus345.xml"/>
+            <combination xmlFilename="$data/vehicles/kemper/plus360/plus360.xml"/>
+            <combination xmlFilename="$data/vehicles/kemper/plus375/plus375.xml"/>
+            <combination xmlFilename="$data/vehicles/kemper/plus390/plus390.xml"/>
+            <combination xmlFilename="$data/vehicles/kemper/comfortSupportWheel/comfortSupportWheel.xml"/>
+            <combination xmlFilename="$data/vehicles/krone/collect900_3/collect900_3.xml"/>
+            <combination xmlFilename="$data/vehicles/krone/xDisc620/xDisc620.xml"/>
+            <combination xmlFilename="$data/vehicles/krone/easyFlow300S/easyFlow300S.xml"/>
         </specs>
         <functions>
             <function>$l10n_function_combineForage</function>
